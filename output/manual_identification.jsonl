@@ -480,7 +480,8 @@
     "post_selectors": {},
     "outlet_name": "Commonwealth Journal",
     "url": "https://www.somerset-kentucky.com/users/profile/caleblowndes/"
-}{
+}
+{
     "selectors": {
         "name": "#main > header > h1 > span",
         "title": null,
@@ -492,13 +493,194 @@
         "instagram": null,
         "phone": null,
         "pfp": null,
-        "single_article": "#main > div",
-        "single_article_title": null,
-        "single_article_description": null,
-        "single_article_date": null,
-        "single_article_url": null
+        "single_article": "#main > div > article",
+        "single_article_title": "#main > div > article > div.post-wrap > header > h2 > a > span",
+        "single_article_description": "#main > div > article > div.post-wrap > div.entry-excerpt",
+        "single_article_date": "#main > div > article > div.post-wrap > div.entry-meta > time",
+        "single_article_url": "#main > div > article > div.post-wrap > header > h2 > a"
     },
     "post_selectors": {},
     "outlet_name": "Connect FM",
     "url": "https://www.connectradio.fm/author/louiseprioritymedia-net"
+}
+{
+    "selectors": {
+        "name": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-name",
+        "title": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-label",
+        "desc": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div.articleFooter--bio > p",
+        "email": null,
+        "twitter": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div.articleFooter--author.articleFooter--social > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-image > img",
+        "single_article": "body > div.article.author_page > div.authorPage > div.content-wrapper > section > li",
+        "single_article_title": "body > div.article.author_page > div.authorPage > div.content-wrapper > section > li > div > a",
+        "single_article_description": "body > div.article.author_page > div.authorPage > div.content-wrapper > section > li > a.dynamic-river__abstract.abstract",
+        "single_article_date": "body > div.article.author_page > div.authorPage > div.content-wrapper > section > li > div > div > span.dynamic-river__timestamp.timestamp",
+        "single_article_url": "body > div.article.author_page > div.authorPage > div.content-wrapper > section > li > div > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Connecticut Post",
+    "url": "https://www.ctpost.com/author/amanda-cuda/"
+}
+{
+    "selectors": {
+        "name": "body > div.body > div > div.header-global > div > header > h1",
+        "title": null,
+        "desc": "body > div.body > div > div.header-global > div > div > div.bio > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.body > div > div.header-global > div > div > figure > img",
+        "single_article": "#archive-col > div > div",
+        "single_article_title": "#archive-col > div > div > div > h3",
+        "single_article_description": "#archive-col > div > div > div > p.post-medium > a",
+        "single_article_date": "#archive-col > div > div > div > p.post-small > span",
+        "single_article_url": "#archive-col > div > div > div > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Consequence",
+    "url": "https://consequence.net/author/abbyfjones/"
+}
+{
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": "#profile-main > div.details > div",
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Conway Daily Sun",
+    "url": "https://www.conwaydailysun.com/users/profile/aleckerr/"
+}
+{
+    "selectors": {
+        "name": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-2.eAUMLl > h1",
+        "title": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-2.eAUMLl > p",
+        "desc": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-6.gVKAfp.description > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-2.eAUMLl > div > a",
+        "phone": null,
+        "pfp": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-7.kVxIKA > img",
+        "single_article": "#__next > div.sc-23e9ca14-0.fgZzqz > div > div > div > div.sc-d16bf3d9-2.dYurSM > article",
+        "single_article_title": "#__next > div.sc-23e9ca14-0.fgZzqz > div > div > div > div.sc-d16bf3d9-2.dYurSM > article > div.sc-dSnXvR.iRJrAV.standard-card__title-wrapper > a > p",
+        "single_article_description": "#__next > div.sc-23e9ca14-0.fgZzqz > div > div > div > div.sc-d16bf3d9-2.dYurSM > article > div.sc-kmIPcE.dtLAwY > div > span",
+        "single_article_date": "#__next > div.sc-23e9ca14-0.fgZzqz > div > div > div > div.sc-d16bf3d9-2.dYurSM > article > div.sc-kmIPcE.dtLAwY > div > span",
+        "single_article_url": "#__next > div.sc-23e9ca14-0.fgZzqz > div > div > div > div.sc-d16bf3d9-2.dYurSM > article > div.sc-dSnXvR.iRJrAV.standard-card__title-wrapper > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Cook's Illustrated",
+    "url": "https://www.americastestkitchen.com/authors/191"
+}
+{
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": null,
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(2) > a",
+        "twitter": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead > p",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Corbin Times-Tribune",
+    "url": "https://www.thetimestribune.com/users/profile/brad%20hall/"
+}
+{
+    "selectors": {
+        "name": "#main-content > div.css-15pjojd.eyc5oi77 > div > h1",
+        "title": null,
+        "desc": "#main-content > div.css-15pjojd.eyc5oi77 > div > div.css-1nu0x6v.eyc5oi72 > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "#main-content > div.css-15pjojd.eyc5oi77 > div > div.css-1n2mv2k.eyc5oi71 > div > a",
+        "phone": null,
+        "pfp": "#main-content > div.css-15pjojd.eyc5oi77 > div > img",
+        "single_article": "#main-content > div.css-15pjojd.eyc5oi77 > section.feed.feed-grid.css-1uq349n.eyc5oi76 > section > div > a",
+        "single_article_title": "#main-content > div.css-15pjojd.eyc5oi77 > section.feed.feed-grid.css-1uq349n.eyc5oi76 > section > div > a:nth-child(3) > div.css-19boxxu.enk2x9t0 > h2 > span.css-t9fllm.e1rluvgc5",
+        "single_article_description": "#main-content > div.css-15pjojd.eyc5oi77 > section.feed.feed-grid.css-1uq349n.eyc5oi76 > section > div > a:nth-child(4) > div.css-19boxxu.enk2x9t0 > div > p",
+        "single_article_date": "#main-content > div.css-15pjojd.eyc5oi77 > section.feed.feed-grid.css-1uq349n.eyc5oi76 > section > div > a:nth-child(4) > div.css-19boxxu.enk2x9t0 > span > div",
+        "single_article_url": "#main-content > div.css-15pjojd.eyc5oi77 > section.feed.feed-grid.css-1uq349n.eyc5oi76 > section > div > a:nth-child(4)"
+    },
+    "post_selectors": {},
+    "outlet_name": "Cosmopolitan",
+    "url": "https://www.cosmopolitan.com/author/220232/jake-register/"
+}
+{
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "Courier News",
+    "url": "https://www.mycentraljersey.com/staff/4395904002/andy-mendlowitz/"
+}
+{
+    "selectors": {
+        "name": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div:nth-child(2) > h2",
+        "title": null,
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div.col-span-8.md\\:col-span-6.p-4 > div",
+        "single_article_title": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div.col-span-8.md\\:col-span-6.p-4 > div > div.block.p-5.m-0.leading-4.text-black.align-baseline.bg-white.border-0.md\\:flex.md\\:flex-shrink-0.md\\:flex-33.md\\:flex-col.md\\:justify-center.lg\\:block > h2 > a",
+        "single_article_description": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div.col-span-8.md\\:col-span-6.p-4 > div > div.block.p-5.m-0.leading-4.text-black.align-baseline.bg-white.border-0.md\\:flex.md\\:flex-shrink-0.md\\:flex-33.md\\:flex-col.md\\:justify-center.lg\\:block > div.eyebrow.hidden.md\\:block > h4 > a",
+        "single_article_date": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div.col-span-8.md\\:col-span-6.p-4 > div > div.block.p-5.m-0.leading-4.text-black.align-baseline.bg-white.border-0.md\\:flex.md\\:flex-shrink-0.md\\:flex-33.md\\:flex-col.md\\:justify-center.lg\\:block > div.byline > div > span",
+        "single_article_url": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div.col-span-8.md\\:col-span-6.p-4 > div > div.block.p-5.m-0.leading-4.text-black.align-baseline.bg-white.border-0.md\\:flex.md\\:flex-shrink-0.md\\:flex-33.md\\:flex-col.md\\:justify-center.lg\\:block > h2 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "CQ Roll Call",
+    "url": "https://rollcall.com/author/alexei-alexis/"
 }
