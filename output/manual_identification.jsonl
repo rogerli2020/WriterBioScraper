@@ -143,7 +143,7 @@
     "selectors": {
         "name": "#author > div > div.ev-grid-zone.ev-primary-zone > div.fdn-grid-main.uk-flex-none.fdn-primary > div:nth-child(1) > div.ZoneA.Author.uk-root.fdn-margin-vert.AuthorPageBio.comp-author-bio > div > div.uk-flex-1 > div.uk-position-relative.uk-visible-toggle.uk-margin-auto-vertical > h1",
         "title": null,
-        "desc": null,
+        "desc": "#author > div > div.ev-grid-zone.ev-primary-zone > div.fdn-grid-main.uk-flex-none.fdn-primary > div:nth-child(1) > div.ZoneA.Author.uk-root.fdn-margin-vert.AuthorPageBio.comp-author-bio > div > div.uk-flex-1 > div.fdn-content-body.fdn-content-author-bio.uk-padding-small.uk-padding-remove-vertical.uk-padding-remove-left",
         "email": null,
         "twitter": null,
         "linkedin": null,
