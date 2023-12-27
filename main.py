@@ -3,11 +3,15 @@ import sys
 import time
 from src.manual_identifier import ManualIdentifier
 from src.bio_scraper import BioScraper
+from journalists_crawler.crawler_manager import CrawlerManager
 
 MANUAL_IDENTIFICATION_OUTPUT_PATH = './output/manual_identification.jsonl'
 DEFAULT_INPUT_URLS_PATH = './assets/input_urls.txt'
 DEFAULT_SELECTORS_PATH = './output/manual_identification.jsonl'
 DEFAULT_SCRAPE_SAVE_PATH = './output/output.jsonl'
+DEFAULT_CRAWL_ROOT_URLS_PATH = './assets/root_urls_for_crawling.txt'
+DEFAULT_CRAWL_DOMAIN_REGEX_PATH = './assets/domain_profile_url_regex.json'
+DEFAULT_CRAWL_OUTPUT = './output/crawl_results.txt'
 
 if __name__ == '__main__':
 
@@ -18,6 +22,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='WritersBioScraper', description='WritersBioScraper.', )
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='Verbose mode')
     parser.add_argument('-m', '--manual-identification', dest='manual_identification', action='store_true', help='Start manual identification')
+    parser.add_argument('-c', '--crawl-for-profile-urls', dest='crawl_for_profile_urls', action='store_true', help='Start crawling for URLs for writer profiles.')
     parser.add_argument('-i', '--url-input-path', dest='url_input_path', type=str, help='Specify the input path of journalists URLs')
     parser.add_argument('-np', '--number-of-processes', dest='np', default=1, type=int, help='Specify the number of child processes you want to utilize')
     args = parser.parse_args()
@@ -30,12 +35,23 @@ if __name__ == '__main__':
         manual_identifier = ManualIdentifier(MANUAL_IDENTIFICATION_OUTPUT_PATH)
         manual_identifier.start()
         sys.exit(0)
+
+    # start the crawling process if user wishes to do so.
+    if args.crawl_for_profile_urls:
+        crawler_manager = CrawlerManager(
+            False, 
+            DEFAULT_CRAWL_ROOT_URLS_PATH, 
+            DEFAULT_CRAWL_DOMAIN_REGEX_PATH, 
+            DEFAULT_CRAWL_OUTPUT
+            )
+        crawler_manager.start_crawling()
+        sys.exit(0)
     
     # start scraping given URLs.
     bio_scraper = BioScraper(
-        DEFAULT_INPUT_URLS_PATH, 
-        DEFAULT_SELECTORS_PATH, 
-        DEFAULT_SCRAPE_SAVE_PATH
+            DEFAULT_INPUT_URLS_PATH, 
+            DEFAULT_SELECTORS_PATH, 
+            DEFAULT_SCRAPE_SAVE_PATH,
         )
     bio_scraper.start_scraping()
 
