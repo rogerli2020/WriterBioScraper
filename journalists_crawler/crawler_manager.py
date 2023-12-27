@@ -82,6 +82,7 @@ class CrawlerManager:
                     continue
                 url = node.data
 
+                # workaround for selenium error
                 all_good = False
                 while not all_good:
                     try:

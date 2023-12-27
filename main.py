@@ -1,3 +1,4 @@
+import os
 import argparse
 import sys
 import time
@@ -14,6 +15,8 @@ DEFAULT_CRAWL_DOMAIN_REGEX_PATH = './assets/domain_profile_url_regex.json'
 DEFAULT_CRAWL_OUTPUT = './output/crawl_results.txt'
 
 if __name__ == '__main__':
+
+    print(f'Current PID: {os.getpid()}')
 
     # start measuring the time taken to finish entire process.
     start_time = time.time()
