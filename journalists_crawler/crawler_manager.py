@@ -46,6 +46,9 @@ class CrawlerManager:
             cleaned_url = urlunparse((parsed_url.scheme, parsed_url.netloc, parsed_url.path, '', '', ''))
             return cleaned_url
         root_domain = urlparse(root_url).netloc
+        if not page_source: 
+            print(f'Warning: no page source passed in for {root_url}')
+            return []
         soup = BeautifulSoup(page_source, 'html.parser')
         all_links = soup.find_all('a', href=True)
         same_domain_links = [link['href'] for link in all_links if urlparse(urljoin(root_url, link['href'])).netloc == root_domain]

@@ -1,14 +1,17 @@
 import json
+import time
+import random
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
 from src.page_source_getter import PageSourceGetter
 
 class BioScraper:
-    def __init__(self, urls_path, selectors_path, save_path, verbose_mode=False) -> None:
+    def __init__(self, urls_path, selectors_path, save_path, shuffle, verbose_mode=False) -> None:
         self.urls_path = urls_path
         self.selectors_path = selectors_path
         self.save_path = save_path
+        self.shuffle = shuffle
         self.verbose_mode = verbose_mode
         self.page_source_getter = PageSourceGetter()
         self.domain_to_selectors = {}
@@ -45,6 +48,8 @@ class BioScraper:
             for url in f.readlines():
                 url = url.replace('\n', '')
                 if url: urls.append(url)
+        if self.shuffle:
+            random.shuffle(urls)
         return urls
     
 
@@ -59,7 +64,7 @@ class BioScraper:
     def scrape_single_page(self, url):
 
         def apply_post_selectors(raw_elems : list, select_text : bool=False, post_selector : str=None) -> list[str]:
-            if select_text: return [elem.text for elem in raw_elems]
+            if select_text: return [elem.text.replace('\n',' ').replace('\t', ' ').strip() for elem in raw_elems]
             else: return [elem.get(post_selector) for elem in raw_elems]
 
         def post_process(json_obj : dict):
@@ -95,7 +100,7 @@ class BioScraper:
             for key in list(keys_to_delete):
                 del json_obj[key]
             for key, val in json_obj.items():
-                if len(val) == 1: json_obj[key] = val[0]
+                if len(val) == 1 and key != "articles": json_obj[key] = val[0]
             # =============== add more fields and return =============== 
             json_obj['scrape_datetime'] = datetime.now().timestamp()
             return json_obj
@@ -103,7 +108,18 @@ class BioScraper:
         # obtain selectors and apply selectors for all fields.
         print(f'Processing {url}...')
         res, raw_elements = {'url':url}, {}
-        page_source = self.page_source_getter.get_page_source(url)
+
+        page_source = ""
+        all_good = False
+        while not all_good:
+            try:
+                page_source = self.page_source_getter.get_page_source(url)
+                all_good = True
+            except:
+                print('Random ass error happened again. Retrying...')
+                self.page_source_getter.driver.quit()
+                self.page_source_getter = PageSourceGetter()    
+
         url_domain = self.get_url_domain(url)
         soup = BeautifulSoup(page_source, 'html.parser')
         selectors = self.domain_to_selectors[url_domain]['selectors']
@@ -123,14 +139,20 @@ class BioScraper:
                 post_selected = apply_post_selectors(elems, True)
             res[field] = post_selected
         
+        res['outlet'] = self.domain_to_selectors[url_domain]['outlet']
         res = post_process(res)
         self.save_result(res)
             
 
     def start_scraping(self):
         urls = self.get_urls_list()
+        url_count = len(urls)
+        counter = 1
         for url in urls:
+            print(f"({counter}/{url_count}) ", end="")
             self.scrape_single_page(url)
+            time.sleep(random.uniform(0.5, 1))
+            counter += 1
     
 
     def save_result(self, res):

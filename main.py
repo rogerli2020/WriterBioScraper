@@ -24,6 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--manual-identification', dest='manual_identification', action='store_true', help='Start manual identification')
     parser.add_argument('-c', '--crawl-for-profile-urls', dest='crawl_for_profile_urls', action='store_true', help='Start crawling for URLs for writer profiles.')
     parser.add_argument('-i', '--url-input-path', dest='url_input_path', type=str, help='Specify the input path of journalists URLs')
+    parser.add_argument('-s', '--shuffle', dest='shuffle', action='store_true', help='Shuffle the list while scraping')
     parser.add_argument('-np', '--number-of-processes', dest='np', default=1, type=int, help='Specify the number of child processes you want to utilize')
     args = parser.parse_args()
 
@@ -49,9 +50,10 @@ if __name__ == '__main__':
     
     # start scraping given URLs.
     bio_scraper = BioScraper(
-            DEFAULT_INPUT_URLS_PATH, 
+            url_input_path, 
             DEFAULT_SELECTORS_PATH, 
             DEFAULT_SCRAPE_SAVE_PATH,
+            shuffle=args.shuffle,
         )
     bio_scraper.start_scraping()
 
