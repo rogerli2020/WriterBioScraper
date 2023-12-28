@@ -25,6 +25,11 @@ class CrawlerManager:
         with open(root_urls_path, 'r') as f:
             for url in f.readlines():
                 url = url.replace('\n', '')
+                if not urlparse(url).scheme:
+                    url = 'https://' + url
+                if not urlparse(url).path.endswith('/'):
+                    url += '/'
+                print(url)
                 if url: self.root_urls.append(url)
         
         # load regex
@@ -88,7 +93,8 @@ class CrawlerManager:
                     try:
                         page_source = self.page_source_getter.get_page_source(url)
                         all_good = True
-                    except:
+                    except Exception as e:
+                        print(e)
                         print('Random ass error happened again. Retrying...')
                         self.page_source_getter.driver.quit()
                         self.page_source_getter = PageSourceGetter()

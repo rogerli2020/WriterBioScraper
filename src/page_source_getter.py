@@ -29,7 +29,7 @@ class PageSourceGetter:
         
         self.options = options
 
-    def get_page_source(self, url: str, timeout: int = 10) -> str:
+    def get_page_source(self, url: str, timeout: int = 15) -> str:
 
         # try:
 
