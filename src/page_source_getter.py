@@ -18,7 +18,7 @@ class PageSourceGetter:
         options.add_argument('--ignore-certificate-errors-spki-list')
         options.add_argument('--ignore-ssl-errors')
         options.add_argument("--disable-blink-features=AutomationControlled")
-        # options.add_argument("--log-level=3")
+        options.add_argument("--log-level=3")
         options.add_argument("--disable-notifications")
         # options.page_load_strategy = 'none'  # or 'normal' or 'none'
 

@@ -25,7 +25,6 @@ class BioScraper:
             'single_article_url': 'href',
         }
         self._load_data()
-        print(self.domain_to_selectors)
     
 
     def _load_data(self):
@@ -80,16 +79,13 @@ class BioScraper:
             # =============== organizie articles =============== 
             articles = []
             while (
-                json_obj.get('single_article_title') and
-                json_obj.get('single_article_description') and
-                json_obj.get('single_article_date') and
-                json_obj.get('single_article_url')
+                json_obj.get('single_article_title')
             ):
                 new_article = {
-                    'article_title': json_obj['single_article_title'].pop(), 
-                    'article_description':json_obj['single_article_description'].pop(), 
-                    'article_date':json_obj['single_article_date'].pop(),
-                    'article_url':json_obj['single_article_url'].pop(),
+                    'article_title': json_obj['single_article_title'].pop() if json_obj['single_article_title'] else None, 
+                    'article_description':json_obj['single_article_description'].pop() if json_obj['single_article_description'] else None, 
+                    'article_date':json_obj['single_article_date'].pop() if json_obj['single_article_date'] else None,
+                    'article_url':json_obj['single_article_url'].pop() if json_obj['single_article_url'] else None,
                 }
                 articles.append(new_article)
             json_obj['articles'] = articles
@@ -101,6 +97,8 @@ class BioScraper:
                 del json_obj[key]
             for key, val in json_obj.items():
                 if len(val) == 1 and key != "articles": json_obj[key] = val[0]
+            # =============== clean up name =============== 
+            if 'name' in json_obj: json_obj['name'] = json_obj['name'].replace('About', '').replace(',','').strip()
             # =============== add more fields and return =============== 
             json_obj['scrape_datetime'] = datetime.now().timestamp()
             return json_obj
@@ -139,7 +137,7 @@ class BioScraper:
                 post_selected = apply_post_selectors(elems, True)
             res[field] = post_selected
         
-        res['outlet'] = self.domain_to_selectors[url_domain]['outlet']
+        res['outlet'] = self.domain_to_selectors[url_domain]['outlet_name']
         res = post_process(res)
         self.save_result(res)
             
