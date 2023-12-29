@@ -1,12 +1,5 @@
 import re
 
-KEYWORDS_FOR_PROFILE_URLS = [
-    'user',
-    'profile',
-    'writer',
-    'voice',
-    'author'
-]
 
 class Node:
     def __init__(self, data : str, layer) -> None:
@@ -20,14 +13,23 @@ class Node:
 
 
 class Layer:
-    def __init__(self, layer_depth) -> None:
+    def __init__(self, layer_depth, parent=None) -> None:
         self.layer_depth = layer_depth
+        self.parent = parent
         self.nodes = []
         self.weight = 0
         self.cur_index = 0
     
     def add_node(self, node : Node):
         self.nodes.append(node)
+
+    def add_weight(self, weight):
+        def add_weight_to_parents(layer, weight):
+            if not layer.parent: return
+            layer.parent.weight += weight / 2
+            add_weight_to_parents(layer.parent, weight / 2)
+        self.weight += weight
+        add_weight_to_parents(self, weight)
     
     def get_next_node(self) -> Node:
         if len(self.nodes) == 0: 
@@ -36,6 +38,7 @@ class Layer:
             return None
         next_node = self.nodes[self.cur_index]
         self.cur_index += 1
+        print(f'\t[Node Selected] {next_node.data}\tDEPTH {self.layer_depth}\tLAYER_WEIGHT {self.weight}')
         return next_node
 
     def is_done(self):
@@ -58,7 +61,7 @@ class CrawlerTree:
 
 
     def _initiate(self):
-        first_layer = Layer(layer_depth=0)
+        first_layer = Layer(layer_depth=0, parent=None)
         self.layers.append(first_layer)
         first_node = Node(data=self.root_url, layer=first_layer)
         self.insert_new_node(first_node, 0)
@@ -79,24 +82,26 @@ class CrawlerTree:
     def update_node_weight(self, node : Node):
         weight = 0
         for child in node.children:
-            # print(child.data, self.profile_url_regex)
             if re.match(self.profile_url_regex, child.data): 
-                # print(f'Hooray!!! Discovered a writer: {child.data}')
                 if child.data not in self.captured:
                     with open('./output/captured_urls.txt', '+a') as f:
                         f.write(child.data + '\n')
                     self.captured.add(child.data)
                 weight += 1
-            # for keyword in KEYWORDS_FOR_PROFILE_URLS:
-            #     if keyword in child.data: weight += 0.1
         node.weight = weight
+        node.layer.add_weight(weight)
 
 
-    def update_layer_weight(self, layer : Layer):
-        weight = 0
-        for node in layer.nodes: weight += node.weight
-        layer.weight = weight
-        print(f'Layer weight updated: DEPTH {layer.layer_depth}, WEIGHT {weight}, SIZE {len(layer.nodes)}')
+    # def update_layer_weight(self, layer : Layer):
+    #     def update_parent_layer_weight(child_layer, child_weight):
+    #         if not child_layer.parent: return
+    #         child_layer.parent.weight += child_weight / 2
+    #         update_parent_layer_weight(child_layer.parent, child_weight / 2)
+    #     weight = 0
+    #     for node in layer.nodes: weight += node.weight
+    #     layer.weight = weight
+    #     update_parent_layer_weight(layer, 1)
+        # print(f'Layer weight updated: DEPTH {layer.layer_depth}, WEIGHT {weight}, SIZE {len(layer.nodes)}')
 
 
     def get_next_layer(self) -> Layer:
@@ -124,9 +129,9 @@ class CrawlerTree:
     
 
     def add_new_layer(self, depth : int) -> Layer:
-        new_layer = Layer(depth)
+        new_layer = Layer(depth, parent=self.layers[-1])
         self.layers.append(new_layer)
-        print(f'New layer added! Depth {depth}')
+        # print(f'New layer added! Depth {depth}')
         return new_layer
 
 
@@ -143,4 +148,5 @@ class CrawlerTree:
             node.add_child(new_node)
             self.visited.add(url)
         self.update_node_weight(node)
-        self.update_layer_weight(node.layer)
+        # self.update_layer_weight(node.layer)
+        print(f'\t[Node Updated] #CHILD {len(node.children)}\tWEIGHT {node.weight}')

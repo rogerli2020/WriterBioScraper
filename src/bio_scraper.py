@@ -123,7 +123,8 @@ class BioScraper:
         selectors = self.domain_to_selectors[url_domain]['selectors']
         post_selectors = self.domain_to_selectors[url_domain]['post_selectors']
         for field, selector in selectors.items():
-            if selectors[field]: raw_elements[field] = soup.select(selector)
+            if selectors[field]: 
+                raw_elements[field] = soup.select(selector)
             else: raw_elements[field] = []
         
         # apply "post_selectors"...

@@ -6,9 +6,9 @@ from src.manual_identifier import ManualIdentifier
 from src.bio_scraper import BioScraper
 from journalists_crawler.crawler_manager import CrawlerManager
 
-MANUAL_IDENTIFICATION_OUTPUT_PATH = './output/manual_identification.jsonl'
+MANUAL_IDENTIFICATION_OUTPUT_PATH = './assets/selectors.jsonl'
 DEFAULT_INPUT_URLS_PATH = './assets/input_urls.txt'
-DEFAULT_SELECTORS_PATH = './output/manual_identification.jsonl'
+DEFAULT_SELECTORS_PATH = './assets/selectors.jsonl'
 DEFAULT_SCRAPE_SAVE_PATH = './output/output.jsonl'
 DEFAULT_CRAWL_ROOT_URLS_PATH = './assets/root_urls_for_crawling.txt'
 DEFAULT_CRAWL_DOMAIN_REGEX_PATH = './assets/domain_profile_url_regex.json'
@@ -29,6 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('-i', '--url-input-path', dest='url_input_path', type=str, help='Specify the input path of journalists URLs')
     parser.add_argument('-s', '--shuffle', dest='shuffle', action='store_true', help='Shuffle the list while scraping')
     parser.add_argument('-np', '--number-of-processes', dest='np', default=1, type=int, help='Specify the number of child processes you want to utilize')
+    parser.add_argument('-auto', '--auto', dest='auto_mode', action='store_true', help='Automatic mode')
     args = parser.parse_args()
 
     # apply cmd line arguments.
@@ -49,6 +50,11 @@ if __name__ == '__main__':
             DEFAULT_CRAWL_OUTPUT
             )
         crawler_manager.start_crawling()
+        sys.exit(0)
+
+    # start auto mode if the user wishes to do so.
+    if args.auto_mode:
+        print('Starting automatic URL Crawling and Bio Scraping process...')
         sys.exit(0)
     
     # start scraping given URLs.

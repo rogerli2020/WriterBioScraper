@@ -1,21 +1,22 @@
-import json
-import re
+import pandas as pd
 
-# Load JSON content from file
-with open('./assets/domain_profile_url_regex.json', 'r') as json_file:
-    data = json.load(json_file)
+# Load the CSV file into a pandas DataFrame
+file_path = './assets/final_data.csv'
+df = pd.read_csv(file_path)
 
-# Get the regex pattern from the JSON
-regex_pattern = data.get('www.cityandstateny.com', '')
+# Calculate the total count for each outlet
+outlet_counts = df['outlet'].value_counts()
 
-# Compile the regex pattern
-compiled_regex = re.compile(regex_pattern)
+# Create a DataFrame with outlet names and their corresponding counts
+top_outlets = pd.DataFrame({'outlet': outlet_counts.index, 'count': outlet_counts.values})
 
-# Test the regex with a sample URL
-sample_url = 'https://www.cityandstateny.com/voices/fuck_you/163462345/'
-match = compiled_regex.match(sample_url)
+# Add a "total_count" column
+top_outlets['total_count'] = top_outlets['outlet'].map(outlet_counts)
 
-if match:
-    print("URL matches the pattern!")
-else:
-    print("URL does not match the pattern.")
+# Save all outlets to a new CSV file
+output_path = './assets/all_outlets.csv'
+top_outlets.to_csv(output_path, index=False)
+
+# Display the result
+print(top_outlets)
+print(f'All outlets saved to {output_path}')

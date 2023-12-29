@@ -54,18 +54,27 @@ class ManualIdentifier:
         with open(REGEX_FILE_PATH, 'w') as f: f.write(''.join(filelines))
 
 
+    def remove_substring_loop(self, string):
+        while True:
+            user_input = input('Substring to remove? (ENTER to skip): ').replace('\n','')
+            if user_input in [' ', '']:
+                return string
+            string = string.replace(user_input, '')
+
     def start(self):
         counter = 0
         broken = False
         outlet_name, url = None, None
         while not broken:
             used_common_format = False
-            res = {'selectors':{}, 'post_selectors': {}}
+            res = {'selectors':{}, 'post_selectors': {}, 'selectors_type': 'css'}
             print('\nDIRECTION: ENTER if field is None, -s to stop')
             for field in self.fields:
                 user_input = input(f'{field}: ').replace('\n','')
                 if field == 'outlet_name': outlet_name = user_input
                 if field == 'url': url = user_input
+                if 'article' in field:
+                    user_input = self.remove_substring_loop(user_input)
                 if user_input in self.common_formats:
                     res = self.common_formats[user_input]
                     used_common_format = True

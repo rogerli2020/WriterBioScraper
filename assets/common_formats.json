@@ -1,6 +1,7 @@
 {
     "-gann": 
     {
+        "selectors_type": "css",
         "selectors": {
             "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
             "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
@@ -28,8 +29,9 @@
         "url": "https://www.columbiatribune.com/staff/3462061001/aarik-danielsen/"
     }
     ,
-    "--blox": 
+    "-blox": 
     {
+        "selectors_type": "css",
         "selectors": {
             "name": "#profile-main > div.details > h1",
             "title": "#profile-main > div.details > div",
@@ -50,5 +52,28 @@
         "post_selectors": {},
         "outlet_name": "Coastal Point",
         "url": "https://www.coastalpoint.com/users/profile/darin%20mccann/"
+    },
+    "-biz": {
+        "selectors_type": "css",
+        "selectors": {
+            "name": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > h1",
+            "title": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > div.page__meta > strong",
+            "desc": "#v-app > section > div > div:nth-child(1) > div.primary > div > p",
+            "email": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > div:nth-child(3) > div:nth-child(1) > a",
+            "twitter": null,
+            "linkedin": null,
+            "facebook": null,
+            "instagram": null,
+            "phone": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > div:nth-child(3) > div:nth-child(2) > a",
+            "pfp": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__1\\/4 > div > div > div > img",
+            "single_article": "#v-app > section > div > div:nth-child(3) > div.primary > div > div.module__body > div.items-container > a",
+            "single_article_title": "#v-app > section > div > div:nth-child(3) > div.primary > div > div.module__body > div.items-container > a > div.item__body > h3",
+            "single_article_description": "#v-app > section > div > div:nth-child(3) > div.primary > div > div.module__body > div.items-container > a > div.item__body > h3",
+            "single_article_date": "#v-app > section > div > div:nth-child(3) > div.primary > div > div.module__body > div.items-container > a > div.item__body > div > span:nth-child(1) > time",
+            "single_article_url": "#v-app > section > div > div:nth-child(3) > div.primary > div > div.module__body > div.items-container > a"
+        },
+        "post_selectors": {},
+        "outlet_name": "Columbus Business First",
+        "url": "https://www.bizjournals.com/columbus/bio/43300/Amanda+Tonoli"
     }
 }

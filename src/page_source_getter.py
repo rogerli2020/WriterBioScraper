@@ -40,7 +40,7 @@ class PageSourceGetter:
         # element_present = EC.presence_of_element_located((By.TAG_NAME, 'html'))
         # WebDriverWait(self.driver, timeout).until(element_present)
         
-        time.sleep(random.uniform(0.3, 0.5))
+        time.sleep(random.uniform(0, 0.1))
         return self.driver.page_source  
     
         # except Exception as e:
