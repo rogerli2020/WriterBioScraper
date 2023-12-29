@@ -35,12 +35,14 @@ class ManualIdentifier:
         self.non_selector_fields = ['outlet_name','url']
 
     
-    def handle_regex_based_on_input(self, url):
+    def handle_regex_based_on_input(self, url, let_user_enter=True, string_fields=None, numeric_fields=None):
         domain = urlparse(url).netloc
         url_regex = url.replace('.','\.')
-        if input('About to enter REGEX information. Enter s to SKIP.') == 's': return
-        string_fields = input('[REGEX GENERATION] Enter string field text (delimiter: space): ')
-        numeric_fields = input('[REGEX GENERATION] Enter numeric field text (delimiter: space): ')
+        if let_user_enter: 
+            if input('About to enter REGEX information. Enter s to SKIP.') == 's': 
+                return
+        if let_user_enter: string_fields = input('[REGEX GENERATION] Enter string field text (delimiter: space): ')
+        if let_user_enter: numeric_fields = input('[REGEX GENERATION] Enter numeric field text (delimiter: space): ')
         string_fields, numeric_fields = string_fields.split(' '), numeric_fields.split(' ')
         for field in string_fields:     
             if field: url_regex = url_regex.replace(field, REGEX_ANY_SUBSTRING)
