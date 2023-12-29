@@ -1,4 +1,5 @@
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-name",
         "title": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-label",
@@ -21,6 +22,7 @@
     "url": "https://www.houstonchronicle.com/author/adam-coleman/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
         "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
@@ -48,6 +50,7 @@
     "url": "https://www.cincinnati.com/staff/2648517001/albert-cesare/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main > div.js-author-container > div:nth-child(1) > div > div > div.l-300-companion > div.author-page-bio-name-container > h2",
         "title": null,
@@ -72,6 +75,7 @@
     "url": "https://www.cityandstateny.com/voices/annie-mcdonough/17228/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -94,6 +98,7 @@
     "url": "https://www.milwaukiereview.com/users/profile/raymond%20rendleman/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#cm-primary > header > h1 > span > span",
         "title": null,
@@ -118,6 +123,7 @@
     "url": "https://cleantechnica.com/author/carolynfortuna/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -140,6 +146,7 @@
     "url": "https://www.clevelandbanner.com/users/profile/autumn%20hughes/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#author > div > div.ev-grid-zone.ev-primary-zone > div.fdn-grid-main.uk-flex-none.fdn-primary > div:nth-child(1) > div.ZoneA.Author.uk-root.fdn-margin-vert.AuthorPageBio.comp-author-bio > div > div.uk-flex-1 > div.uk-position-relative.uk-visible-toggle.uk-margin-auto-vertical > h1",
         "title": null,
@@ -162,6 +169,7 @@
     "url": "https://www.clevescene.com/author/brett-zelman"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -184,6 +192,7 @@
     "url": "https://www.clintonherald.com/users/profile/charlene%20bielema/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#__layout > div > div.c-layoutMinimal_page > div > div.c-pageProfile > div:nth-child(1) > div.c-profileHeader > div.c-profileHeader_author.u-grid-columns.sm\\:u-col-1.md\\:u-col-6.lg\\:u-col-12.g-outer-spacing-bottom-large > div.md\\:u-col-5.lg\\:u-col-10 > h1",
         "title": "#__layout > div > div.c-layoutMinimal_page > div > div.c-pageProfile > div:nth-child(1) > div.c-profileHeader > div.c-profileHeader_author.u-grid-columns.sm\\:u-col-1.md\\:u-col-6.lg\\:u-col-12.g-outer-spacing-bottom-large > div.md\\:u-col-5.lg\\:u-col-10 > div > div:nth-child(1) > p",
@@ -206,15 +215,16 @@
     "url": "https://www.cnet.com/profiles/aalheeti/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > h1",
         "title": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > h2",
         "desc": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > div > div.profile__short-bio-text > div",
         "email": null,
         "twitter": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > ul > li.profile__social-item.profile__social-twitter > a",
-        "linkedin": null,
+        "linkedin": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > ul > li.profile__social-item.profile__social-linkedin > a",
         "facebook": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > ul > li.profile__social-item.profile__social-facebook > a",
-        "instagram": null,
+        "instagram": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__top-container > section > div > div > ul > li.profile__social-item.profile__social-instagram > a",
         "phone": null,
         "pfp": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > div > div.profile__picture > div > div.image__container > picture > img",
         "single_article": "body > div.layout__content-wrapper.layout-profile__content-wrapper > section.layout__wrapper.layout-profile__wrapper > section > profile > section > div > section.profile__featured-content > div > div.zone__inner.has-pseudo-class-fix-layout--full-width > div > div > div.container_list-images-with-description__cards-wrapper > div > div > div",
@@ -228,6 +238,7 @@
     "url": "https://www.cnn.com/profiles/lisa-france"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -250,6 +261,7 @@
     "url": "https://www.coastalpoint.com/users/profile/darin%20mccann/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#gatsby-focus-wrapper > div.MuiBox-root.css-1hrqswa > div > div.css-14bftlh > div.css-1eokosy > div > h1",
         "title": null,
@@ -272,6 +284,7 @@
     "url": "https://coffeeordie.com/carl-prine"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#catpage > div.profile_bio_wrap.sno-profile-fade > div > div.profile-textarea-with-media.sno-center-v-outer > div > h2",
         "title": "#catpage > div.profile_bio_wrap.sno-profile-fade > div > div.profile-textarea-with-media.sno-center-v-outer > div > h2",
@@ -294,6 +307,7 @@
     "url": "https://wkuherald.com/staff_name/keilen-frazier/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
         "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
@@ -321,6 +335,7 @@
     "url": "https://www.columbiadailyherald.com/staff/3331749001/james-bennett/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
         "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
@@ -348,6 +363,7 @@
     "url": "https://www.columbiatribune.com/staff/3462061001/aarik-danielsen/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -370,6 +386,7 @@
     "url": "https://www.columbiamissourian.com/users/profile/guest2910/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > h1",
         "title": "#v-app > section > div > div:nth-child(1) > div.primary > div > div.\\31 \\/1.md__3\\/4 > div.page__meta > strong",
@@ -392,6 +409,7 @@
     "url": "https://www.bizjournals.com/columbus/bio/43300/Amanda+Tonoli"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#primary-content > div > div.a-details.package > h3",
         "title": null,
@@ -414,6 +432,7 @@
     "url": "https://www.ledger-enquirer.com/profile/217571350"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#page > div > div > div > div > section > div.cm-canvas-header > div > div.cm-canvas-header-author-info-bot > div > h1",
         "title": "#page > div > div > div > div > section > div.cm-canvas-header > div > div.cm-canvas-header-author-info-top > div.author-info-decoration > span",
@@ -436,6 +455,7 @@
     "url": "https://www.commentary.org/author/abe-greenwald/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#sProfile_0_0_1_0_0_6_0_1_0_0 > a",
         "title": "#sProfile_0_0_1_0_0_6_0_1_0_1 > div",
@@ -460,6 +480,7 @@
     "url": "https://www.commondreams.org/author/abby-zimet"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -482,6 +503,7 @@
     "url": "https://www.somerset-kentucky.com/users/profile/caleblowndes/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main > header > h1 > span",
         "title": null,
@@ -504,6 +526,7 @@
     "url": "https://www.connectradio.fm/author/louiseprioritymedia-net"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-name",
         "title": "body > div.article.author_page > div.authorPage > div.content-wrapper > div > div:nth-child(1) > div.articleFooter--author-label",
@@ -526,6 +549,7 @@
     "url": "https://www.ctpost.com/author/amanda-cuda/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.body > div > div.header-global > div > header > h1",
         "title": null,
@@ -548,6 +572,7 @@
     "url": "https://consequence.net/author/abbyfjones/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -570,6 +595,7 @@
     "url": "https://www.conwaydailysun.com/users/profile/aleckerr/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-2.eAUMLl > h1",
         "title": "#__next > div.sc-23e9ca14-0.fgZzqz > div > section > div.sc-14e4abf7-1.zPSIm > div.sc-14e4abf7-2.eAUMLl > p",
@@ -592,6 +618,7 @@
     "url": "https://www.americastestkitchen.com/authors/191"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -614,6 +641,7 @@
     "url": "https://www.thetimestribune.com/users/profile/brad%20hall/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main-content > div.css-15pjojd.eyc5oi77 > div > h1",
         "title": null,
@@ -636,6 +664,7 @@
     "url": "https://www.cosmopolitan.com/author/220232/jake-register/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
         "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
@@ -663,6 +692,7 @@
     "url": "https://www.mycentraljersey.com/staff/4395904002/andy-mendlowitz/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main > div.grid.grid-cols-8.mx-auto.max-w-7xl.mt-5 > div:nth-child(2) > h2",
         "title": null,
@@ -685,6 +715,7 @@
     "url": "https://rollcall.com/author/alexei-alexis/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#block-mainpagecontent > article > div > div > div > div:nth-child(4) > div.md\\:flex-2\\/3.xl\\:flex-3\\/4.md\\:max-w-\\[66\\.666\\%\\].xl\\:max-w-\\[75\\%\\].flex-1\\/1.py-3.md\\:py-7.md\\:pr-4.relative > div:nth-child(1) > div > div.text-xxxl-sm.md\\:hidden.pb-4 > strong",
         "title": "#block-mainpagecontent > article > div > div > div > div:nth-child(4) > div.md\\:flex-2\\/3.xl\\:flex-3\\/4.md\\:max-w-\\[66\\.666\\%\\].xl\\:max-w-\\[75\\%\\].flex-1\\/1.py-3.md\\:py-7.md\\:pr-4.relative > div:nth-child(1) > div > div.text-xxxl-sm.md\\:hidden.pb-4 > span",
@@ -707,6 +738,7 @@
     "url": "https://www.chicagobusiness.com/staff/agallun/Alby-Gallun"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.dialog-off-canvas-main-canvas > main > div > article > div > div > div > div:nth-child(4) > div.md\\:flex-2\\/3.xl\\:flex-3\\/4.md\\:max-w-\\[66\\.666\\%\\].xl\\:max-w-\\[75\\%\\].flex-1\\/1.py-3.md\\:py-7.md\\:pr-4.relative > div:nth-child(1) > div > div.text-xxxl-sm.md\\:hidden.pb-4 > strong",
         "title": "body > div.dialog-off-canvas-main-canvas > main > div > article > div > div > div > div:nth-child(4) > div.md\\:flex-2\\/3.xl\\:flex-3\\/4.md\\:max-w-\\[66\\.666\\%\\].xl\\:max-w-\\[75\\%\\].flex-1\\/1.py-3.md\\:py-7.md\\:pr-4.relative > div:nth-child(1) > div > div.text-xxxl-sm.md\\:hidden.pb-4 > span",
@@ -729,6 +761,7 @@
     "url": "https://www.crainsdetroit.com/staff/duswal"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#single-view > div.container.page_top > div > div > div > div > div > div.header-top > div.member-meta > h2",
         "title": null,
@@ -751,6 +784,7 @@
     "url": "https://crooksandliars.com/team/aliza-worthington"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-76568e7.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-7944c12.elementor-author-box--layout-image-left.elementor-author-box--image-valign-top.elementor-hidden-mobile.elementor-author-box--avatar-yes.elementor-author-box--name-yes.elementor-author-box--biography-yes.elementor-widget.elementor-widget-author-box > div > div > div.elementor-author-box__text > div:nth-child(1) > h4",
         "title": null,
@@ -762,17 +796,18 @@
         "instagram": null,
         "phone": null,
         "pfp": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-76568e7.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-7944c12.elementor-author-box--layout-image-left.elementor-author-box--image-valign-top.elementor-hidden-mobile.elementor-author-box--avatar-yes.elementor-author-box--name-yes.elementor-author-box--biography-yes.elementor-widget.elementor-widget-author-box > div > div > div.elementor-author-box__avatar > img",
-        "single_article": "body > div.elemen",
-        "single_article_title": null,
+        "single_article": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-64ac279.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-b9d3ba0.elementor-grid-3.elementor-grid-tablet-2.elementor-grid-mobile-1.elementor-posts--thumbnail-top.elementor-card-shadow-yes.elementor-posts__hover-gradient.elementor-widget.elementor-widget-archive-posts > div > div.elementor-posts-container.elementor-posts.elementor-posts--skin-cards.elementor-grid.elementor-has-item-ratio > article.elementor-post.elementor-grid-item.post-161437.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-cruise-line-news",
         "single_article_description": null,
-        "single_article_date": null,
-        "single_article_url": null
+        "single_article_date": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-64ac279.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-b9d3ba0.elementor-grid-3.elementor-grid-tablet-2.elementor-grid-mobile-1.elementor-posts--thumbnail-top.elementor-card-shadow-yes.elementor-posts__hover-gradient.elementor-widget.elementor-widget-archive-posts > div > div.elementor-posts-container.elementor-posts.elementor-posts--skin-cards.elementor-grid.elementor-has-item-ratio > article.elementor-post.elementor-grid-item.post-161437.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-cruise-line-news > div > div.elementor-post__meta-data > span.elementor-post-date",
+        "single_article_title": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-64ac279.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-b9d3ba0.elementor-grid-3.elementor-grid-tablet-2.elementor-grid-mobile-1.elementor-posts--thumbnail-top.elementor-card-shadow-yes.elementor-posts__hover-gradient.elementor-widget.elementor-widget-archive-posts > div > div.elementor-posts-container.elementor-posts.elementor-posts--skin-cards.elementor-grid.elementor-has-item-ratio > article.elementor-post.elementor-grid-item.post-161437.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-cruise-line-news > div > div.elementor-post__text > h3",
+        "single_article_url": "body > div.elementor.elementor-157672.elementor-location-archive > section > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-64ac279.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-b9d3ba0.elementor-grid-3.elementor-grid-tablet-2.elementor-grid-mobile-1.elementor-posts--thumbnail-top.elementor-card-shadow-yes.elementor-posts__hover-gradient.elementor-widget.elementor-widget-archive-posts > div > div.elementor-posts-container.elementor-posts.elementor-posts--skin-cards.elementor-grid.elementor-has-item-ratio > article.elementor-post.elementor-grid-item.post-161437.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-cruise-line-news > div > div.elementor-post__text > h3 > a"
     },
     "post_selectors": {},
     "outlet_name": "Cruise Radio",
     "url": "https://cruiseradio.net/author/doug-parker/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main-content-wrapper > article > header > h1",
         "title": null,
@@ -797,6 +832,7 @@
     "url": "https://www.cruisetradenews.com/author/garypeters/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#content > div:nth-child(2) > div.col-md-8 > span > ul > li > a",
         "title": null,
@@ -819,6 +855,7 @@
     "url": "https://www.currentaffairs.org/author/jennifer-dines"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#profile-main > div.details > h1",
         "title": "#profile-main > div.details > div",
@@ -841,6 +878,7 @@
     "url": "https://www.custercountychief.com/users/profile/chiefnews/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main > div.page-default.content > div:nth-child(1) > div > div.person__meta",
         "title": null,
@@ -863,6 +901,7 @@
     "url": "https://cyberscoop.com/author/aj-vicens/"
 }
 {
+    "selectors_type": "css",
     "selectors": {
         "name": "#main > div > div.info > header > div > h1",
         "title": "#main > div > div.info > header > div > span",

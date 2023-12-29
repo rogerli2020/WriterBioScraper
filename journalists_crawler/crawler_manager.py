@@ -98,6 +98,8 @@ class CrawlerManager:
                         print('Random ass error happened again. Retrying...')
                         self.page_source_getter.driver.quit()
                         self.page_source_getter = PageSourceGetter()
+                        page_source = ""
+                        all_good = True
 
                 child_urls = self.extract_urls(page_source, crawler.root_url)
                 crawler.generate_and_add_child_nodes(node, child_urls)

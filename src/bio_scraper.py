@@ -96,7 +96,7 @@ class BioScraper:
             for key in list(keys_to_delete):
                 del json_obj[key]
             for key, val in json_obj.items():
-                if len(val) == 1 and key != "articles": json_obj[key] = val[0]
+                if key != "articles" and val and type(val) == list: json_obj[key] = str(val[0])
             # =============== clean up name =============== 
             if 'name' in json_obj: json_obj['name'] = json_obj['name'].replace('About', '').replace(',','').strip()
             # =============== add more fields and return =============== 

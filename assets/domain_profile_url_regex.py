@@ -6,6 +6,11 @@
     ([^/]+)
 """
 
+"""
+PROBLEMATIC OUTLETS: 
+	coffeeordie.com		It does not have a distinctive URL pattern for profile pages...
+"""
+
 domain_url_regex = {
     'www.cityandstateny.com': r'https://www\.cityandstateny\.com/voices/([^/]+)/(\d+)/?$',
     'www.columbiamissourian.com': r'https://www\.columbiamissourian\.com/users/profile/([^/]+)/?$',
