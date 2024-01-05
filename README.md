@@ -12,18 +12,23 @@ This program has several functionalities related to obtaining journalists inform
 ## Setup
 Set up Python virtual environment and install dependencies listed under `requirements.txt`.
 
-## Usage and Options
+## Usage
 Listed below are the primary functionalities of this application.
   1. ### `scrape`
      - Start the scraping process given an input file of a list of URLs.
+     - Options:
+         - `-i` (input): Specify path of input file.
   2. ### `crawl`
      - Start crawling for journalist URLs given an input file of URLs to start scraping from.
+     - Options:
+         - `-i` (input): Specify path of input file.
   3. ### `addr` (Add Regex)
+     - UNDER CONSTRUCTION.
      - Add regex expression for an outlet's profile URLs.
-  4. ### `adds` (Add Scraper)
+  5. ### `adds` (Add Scraper)
      - Add CSS Selectors for different components of an outlet's journalist profile pages.
-  5. ### `extract`
-      - Extract profile URLs of an HTML given an outlet domain.
+  6. ### `extract`
+      - Extract profile URLs of a local HTML given an outlet domain.
 
     
 
