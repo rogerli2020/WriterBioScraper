@@ -23,20 +23,14 @@ if __name__ == '__main__':
 
     # handle command line arguments.
     parser = argparse.ArgumentParser(prog='WritersBioScraper', description='WritersBioScraper.', )
-    parser.add_argument('-v', '--verbose', dest='verbose', action='store_true', help='Verbose mode')
-    parser.add_argument('-m', '--manual-identification', dest='manual_identification', action='store_true', help='Start manual identification')
-    parser.add_argument('-c', '--crawl-for-profile-urls', dest='crawl_for_profile_urls', action='store_true', help='Start crawling for URLs for writer profiles.')
-    parser.add_argument('-i', '--url-input-path', dest='url_input_path', type=str, help='Specify the input path of journalists URLs')
-    parser.add_argument('-s', '--shuffle', dest='shuffle', action='store_true', help='Shuffle the list while scraping')
-    parser.add_argument('-np', '--number-of-processes', dest='np', default=1, type=int, help='Specify the number of child processes you want to utilize')
-    parser.add_argument('-auto', '--auto', dest='auto_mode', action='store_true', help='Automatic mode')
+    parser.add_argument('-scrape', '--scrape', dest='scrape', action='store_true', help='Start the scraping process given an input file of a list of URLs.')
+    parser.add_argument('-crawl', '--crawl', dest='crawl', action='store_true', help='Start crawling for journalist URLs given an input file of URLs to start scraping from.')
+    parser.add_argument('-adds', '--add-scraper', dest='add_scraper', action='store_true', help="Add CSS Selectors for different components of an outlet's journalist profile pages.")
+    parser.add_argument('-extract', '--extract', dest='extract', action='store_true', help='Extract profile URLs of a local HTML given an outlet domain.')
     args = parser.parse_args()
 
-    # apply cmd line arguments.
-    url_input_path = DEFAULT_INPUT_URLS_PATH if not args.url_input_path else args.url_input_path
-
     # start manual identification process if user wishes to do so.
-    if args.manual_identification:
+    if args.add_scraper:
         manual_identifier = ManualIdentifier(MANUAL_IDENTIFICATION_OUTPUT_PATH)
         manual_identifier.start()
         sys.exit(0)
@@ -52,14 +46,11 @@ if __name__ == '__main__':
         crawler_manager.start_crawling()
         sys.exit(0)
 
-    # start auto mode if the user wishes to do so.
-    if args.auto_mode:
-        print('Starting automatic URL Crawling and Bio Scraping process...')
-        sys.exit(0)
     
     # start scraping given URLs.
     bio_scraper = BioScraper(
-            url_input_path, 
+            # url_input_path, 
+            DEFAULT_INPUT_URLS_PATH,
             DEFAULT_SELECTORS_PATH, 
             DEFAULT_SCRAPE_SAVE_PATH,
             shuffle=args.shuffle,

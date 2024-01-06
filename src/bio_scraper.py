@@ -6,6 +6,9 @@ from urllib.parse import urlparse, urljoin
 from datetime import datetime
 from src.page_source_getter import PageSourceGetter
 
+DEFAULT_WARNING_LOG_PATH = './scraper_warnings.txt'
+
+
 class BioScraper:
     def __init__(self, urls_path, selectors_path, save_path, shuffle, verbose_mode=False) -> None:
         self.urls_path = urls_path
@@ -98,7 +101,10 @@ class BioScraper:
             for key, val in json_obj.items():
                 if key != "articles" and val and type(val) == list: json_obj[key] = str(val[0])
             # =============== clean up name =============== 
-            if 'name' in json_obj: json_obj['name'] = json_obj['name'].replace('About', '').replace(',','').strip()
+            if 'name' in json_obj:
+                json_obj['name'] = json_obj['name'].replace('About', '').replace(',','').strip()
+                if ' - ' in json_obj['name']:
+                    json_obj['name'] = json_obj['name'].split(' - ')[0].strip()
             # =============== add more fields and return =============== 
             json_obj['scrape_datetime'] = datetime.now().timestamp()
             return json_obj
@@ -107,18 +113,21 @@ class BioScraper:
         print(f'Processing {url}...')
         res, raw_elements = {'url':url}, {}
 
-        page_source = ""
-        all_good = False
-        while not all_good:
-            try:
-                page_source = self.page_source_getter.get_page_source(url)
-                all_good = True
-            except:
-                print('Random ass error happened again. Retrying...')
-                self.page_source_getter.driver.quit()
-                self.page_source_getter = PageSourceGetter()    
-
         url_domain = self.get_url_domain(url)
+        if url_domain not in self.domain_to_selectors:
+            with open('./could_not_process.txt', '+a') as file:
+                file.write(url + '\n')
+                return
+        
+        page_source = self.page_source_getter.get_page_source(url)
+
+        # if page_source is blank
+        if not page_source:
+            with open('./could_not_process.txt', '+a') as file:
+                file.write(url + '\n')
+                return
+
+        if page_source == None: page_source = ''
         soup = BeautifulSoup(page_source, 'html.parser')
         selectors = self.domain_to_selectors[url_domain]['selectors']
         post_selectors = self.domain_to_selectors[url_domain]['post_selectors']
@@ -140,8 +149,27 @@ class BioScraper:
         
         res['outlet'] = self.domain_to_selectors[url_domain]['outlet_name']
         res = post_process(res)
+        self.handle_warning(res)
         self.save_result(res)
             
+
+    def handle_warning(self, res):
+        try:
+            def log_warning(outlet, url, warning, path=DEFAULT_WARNING_LOG_PATH):
+                with open(path, '+a') as file:
+                    outlet = outlet if ',' not in outlet else f'"{outlet}"'
+                    newline = f"{outlet}, {url}, {warning}\n"
+                    file.write(newline)
+            outlet, url = res.get('outlet'), res.get('url')
+            if not res.get('name'):
+                log_warning(outlet, url, "did not get journalist name")
+            if not res.get('articles'):
+                log_warning(outlet, url, "did not get any articles")
+            elif len(res.get('articles')) <= 1:
+                log_warning(outlet, url, "got 1 or less article")
+        except Exception as e:
+            print(f'Encountered error while logging warning: {e}')
+
 
     def start_scraping(self):
         urls = self.get_urls_list()

@@ -27,10 +27,10 @@ class ManualIdentifier:
             'phone',
             'pfp',
             'single_article',
-            'single_article_date',
             'single_article_title',
-            'single_article_description',
             'single_article_url',
+            'single_article_description',
+            'single_article_date',
         ]
         self.non_selector_fields = ['outlet_name','url']
 
@@ -56,12 +56,21 @@ class ManualIdentifier:
         with open(REGEX_FILE_PATH, 'w') as f: f.write(''.join(filelines))
 
 
-    def remove_substring_loop(self, string):
+    def remove_substring_loop(self, res : dict) -> None:
         while True:
-            user_input = input('Substring to remove? (ENTER to skip): ').replace('\n','')
+            user_input = input('Substrings to remove from article fields? (ENTER to skip): ').replace('\n','')
             if user_input in [' ', '']:
-                return string
-            string = string.replace(user_input, '')
+                return res
+            else:
+                for field in [
+                    'single_article_date',
+                    'single_article_title',
+                    'single_article_description',
+                    'single_article_url',
+                    'single_article',
+                ]:
+                    if not res['selectors'][field]: continue
+                    res['selectors'][field] = res['selectors'][field].replace(user_input, '')
 
     def start(self):
         counter = 0
@@ -73,23 +82,20 @@ class ManualIdentifier:
             print('\nDIRECTION: ENTER if field is None, -s to stop')
             for field in self.fields:
                 user_input = input(f'{field}: ').replace('\n','')
-                if field == 'outlet_name': outlet_name = user_input
-                if field == 'url': url = user_input
-                if 'article' in field:
-                    user_input = self.remove_substring_loop(user_input)
                 if user_input in self.common_formats:
                     res = self.common_formats[user_input]
                     used_common_format = True
                     break
-                if field == 'url': self.handle_regex_based_on_input(user_input)
-                if len(user_input) == 0: user_input = None
                 if (not user_input and field == 'outlet_name') or (user_input == '-s'):
                     broken = True
                     break
+                if field == 'outlet_name': outlet_name = user_input
+                if field == 'url': url = user_input
                 if field in self.non_selector_fields:
-                    res[field] = user_input
+                    res[field] = user_input if user_input else None
                 else:
-                    res['selectors'][field] = user_input
+                    res['selectors'][field] = user_input if user_input else None
+            self.remove_substring_loop(res)
 
             entering_post_selectors = True
             while entering_post_selectors and not used_common_format:

@@ -1232,3 +1232,583 @@
     "outlet_name": "Danbury News-Times",
     "url": "https://www.newstimes.com/author/julia-perkins/"
 }
+{
+    "selectors": {
+        "name": "#byline > header > div > div > div.css-1126fso.e1j8vip05 > div.css-17ibc91.e1j8vip06 > h1 > div",
+        "title": null,
+        "desc": "#byline > header > div > div > div.css-1126fso.e1j8vip05 > h2 > span > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#byline > header > div > div > div.css-l7v40z > img",
+        "single_article": "#stream-panel > div.css-13mho3u > ol > li",
+        "single_article_date": "#stream-panel > div.css-13mho3u > ol > li > div > div > span",
+        "single_article_title": "#stream-panel > div.css-13mho3u > ol > li > div > article > a",
+        "single_article_description": "#stream-panel > div.css-13mho3u > ol > li > div > article > p",
+        "single_article_url": "#stream-panel > div.css-13mho3u > ol > li > div > article > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The New York Times",
+    "url": "https://www.nytimes.com/by/maggie-haberman"
+}
+{
+    "selectors": {
+        "name": "#__next > div:nth-child(2) > div > div.LeaderboardAd_parallaxWrapper-JMVgdxR--aU- > div.authorzones_zoneContainer__PsRs7 > section.authorzones_authorInfo__qQo2I > section > h1",
+        "title": "#__next > div:nth-child(2) > div > div.LeaderboardAd_parallaxWrapper-JMVgdxR--aU- > div.authorzones_zoneContainer__PsRs7 > section.authorzones_authorInfo__qQo2I > section > span",
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#author_page > article",
+        "single_article_date": "",
+        "single_article_title": "#author_page > article > div > div.hover\\:underline.focus\\:underline > a",
+        "single_article_description": "",
+        "single_article_url": "#author_page > article > div > div.hover\\:underline.focus\\:underline > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Bloomberg News",
+    "url": "https://www.bloomberg.com/authors/ABoe0szR3_0/greg-stohr"
+}
+{
+    "selectors": {
+        "name": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__left-rail__KNaaJ > div > div > address > div.author-bio__author-wrapper__3HHLV > div > a",
+        "title": "",
+        "desc": "",
+        "email": "",
+        "twitter": "",
+        "linkedin": "",
+        "facebook": "",
+        "instagram": "",
+        "phone": "",
+        "pfp": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__left-rail__KNaaJ > div > div > address > div.author-bio__author-wrapper__3HHLV > a > div > div > img",
+        "single_article": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__main__L267c > div > div.search-results__sectionContainer__34n_c > ul > li",
+        "single_article_title": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__main__L267c > div > div.search-results__sectionContainer__34n_c > ul > li > div > div.media-story-card__body__3tRWy > h3 > a",
+        "single_article_url": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__main__L267c > div > div.search-results__sectionContainer__34n_c > ul > li > div > div.media-story-card__body__3tRWy > h3 > a",
+        "single_article_description": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__main__L267c > div > div.search-results__sectionContainer__34n_c > ul > li > div > div.media-story-card__body__3tRWy > span > a",
+        "single_article_date": "#fusion-app > div.search-layout__body__1FDkI > div.search-layout__main__L267c > div > div.search-results__sectionContainer__34n_c > ul > li > div > div.media-story-card__body__3tRWy > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Reuters",
+    "url": "https://www.reuters.com/authors/joshua-schneyer/"
+}
+{
+    "selectors": {
+        "name": "#row-0 > div > div > div.h0vXu > div.gWfXg > div.MQzAD > h1",
+        "title": "#row-0 > div > div > div.h0vXu > div.gWfXg > div.atod5 > span.c8gas",
+        "desc": "#row-0 > div > div > div._92hIx > div > p",
+        "email": null,
+        "twitter": "#row-0 > div > div > div.h0vXu > div.gWfXg > div.r02NY > a:nth-child(2)",
+        "linkedin": "#row-0 > div > div > div.h0vXu > div.gWfXg > div.r02NY > a:nth-child(3)",
+        "facebook": "#row-0 > div > div > div.h0vXu > div.gWfXg > div.r02NY > a:nth-child(1)",
+        "instagram": null,
+        "phone": null,
+        "pfp": "#row-0 > div > div > div.h0vXu > div.QgHhq.fXABk",
+        "single_article": "#row-2 > div > div > div > div > div:nth-child(2) > div",
+        "single_article_title": "#row-2 > div > div > div > div > div:nth-child(2) > div > div > div > div.B6j66vzQ > h3 > a",
+        "single_article_url": "#row-2 > div > div > div > div > div:nth-child(2) > div > div > div > div.B6j66vzQ > h3 > a",
+        "single_article_description": "#row-2 > div > div > div > div > div:nth-child(2) > div > div > div > div.B6j66vzQ > p",
+        "single_article_date": "#row-2 > div > div > div > div > div:nth-child(2) > div > div > div > div.B6j66vzQ > div.ptbNeM0K > span:nth-child(3)"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Forbes",
+    "url": "https://www.forbes.com/sites/kerryadolan/"
+}
+{
+    "selectors": {
+        "name": "#main-content > div.mb-sm.b.bb.w-100 > div.wpds-c-imAjWs.flex-ns-row.items-ns-start > div:nth-child(2) > div.wpds-c-cgjAiG > h1",
+        "title": "#main-content > div.mb-sm.b.bb.w-100 > div.wpds-c-imAjWs.flex-ns-row.items-ns-start > div:nth-child(2) > div.wpds-c-elXWaZ",
+        "desc": "#main-content > div.mb-sm.b.bb.w-100 > div.wpds-c-imAjWs.flex-ns-row.items-ns-start > div:nth-child(2) > div.wpds-c-hoRYqr.h-100.mb-sm > div",
+        "email": "#main-content > div.mb-sm.b.bb.w-100 > div.flex.justify-between-ns.justify-center.flex-wrap.w-100.items-center.mt-sm.b.bt > nav > a:nth-child(1)",
+        "twitter": "#main-content > div.mb-sm.b.bb.w-100 > div.flex.justify-between-ns.justify-center.flex-wrap.w-100.items-center.mt-sm.b.bt > nav > a:nth-child(2)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "#main-content > div.mb-sm.b.bb.w-100 > div.flex.justify-between-ns.justify-center.flex-wrap.w-100.items-center.mt-sm.b.bt > nav > a:nth-child(3)",
+        "phone": null,
+        "pfp": "#main-content > div.mb-sm.b.bb.w-100 > div.wpds-c-imAjWs.flex-ns-row.items-ns-start > div.wpds-c-gjdJOs.mr-md-ns > figure > div > img",
+        "single_article": "#main-content > article > div > div",
+        "single_article_title": "#main-content > article > div > div > div > div > a > h2",
+        "single_article_url": "#main-content > article > div > div > div > div > a",
+        "single_article_description": "#main-content > article > div > div > div > div > p",
+        "single_article_date": "#main-content > article > div > div > div > div > div"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Washington Post",
+    "url": "https://www.washingtonpost.com/people/isabelle-khurshudyan/"
+}
+{
+    "selectors": {
+        "name": "#author-card > div > div.style--name-container--5pYj4QGs > h1",
+        "title": "#author-card > div > h2",
+        "desc": "#author-card > div > div.style--bio--2-MnRw9M",
+        "email": "#author-card > div > div:nth-child(5) > a:nth-child(2)",
+        "twitter": "#author-card > div > div:nth-child(5) > a:nth-child(1)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#author-card > div > div.style--imagewrap--304NeyUQ > img",
+        "single_article": "#author-articles > article",
+        "single_article_title": "#author-articles > article > div.WSJTheme--content-float-right--1NZyrHNk > div.WSJTheme--headline--7VCzo7Ay > h2 > a > span",
+        "single_article_url": "#author-articles > article > div.WSJTheme--content-float-right--1NZyrHNk > div.WSJTheme--headline--7VCzo7Ay > h2 > a",
+        "single_article_description": "#author-articles > article > div.WSJTheme--content-float-right--1NZyrHNk > p",
+        "single_article_date": "#author-articles > article > div.WSJTheme--content-float-right--1NZyrHNk > div.WSJTheme--combined-timestamp--8qWYFuAV > div > p"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Wall Street Journal",
+    "url": "https://www.wsj.com/news/author/gunjan-banerji"
+}
+{
+    "selectors": {
+        "name": "body > div.page-content > div > main > article > div.page-intro > div.author-info > h1",
+        "title": "body > div.page-content > div > main > article > div.page-intro > div.author-info > p",
+        "desc": "body > div.page-content > div > main > article > div.author-bio > div > p",
+        "email": "body > div.page-content > div > main > article > div.page-intro > div.author-info > div > div > ul > li:nth-child(3) > a",
+        "twitter": "body > div.page-content > div > main > article > div.page-intro > div.author-info > div > div > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": "body > div.page-content > div > main > article > div.page-intro > div.author-info > div > div > ul > li:nth-child(4) > a",
+        "instagram": "body > div.page-content > div > main > article > div.page-intro > div.author-info > div > div > ul > li:nth-child(2) > a",
+        "phone": null,
+        "pfp": "body > div.page-content > div > main > article > div.page-intro > div.author-avatar > picture > img",
+        "single_article": "body > div.page-content > div > main > div > ps-list-loadmore > ul > li",
+        "single_article_title": "body > div.page-content > div > main > div > ps-list-loadmore > ul > li > ps-promo > div > div.promo-content > div > h3 > a",
+        "single_article_url": "body > div.page-content > div > main > div > ps-list-loadmore > ul > li > ps-promo > div > div.promo-content > div > h3 > a",
+        "single_article_description": "body > div.page-content > div > main > div > ps-list-loadmore > ul > li > ps-promo > div > div.promo-content > p.promo-description",
+        "single_article_date": "body > div.page-content > div > main > div > ps-list-loadmore > ul > li > ps-promo > div > div.promo-content > p.promo-timestamp"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Los Angeles Times",
+    "url": "https://www.latimes.com/people/jeong-park"
+}
+{
+    "selectors": {
+        "name": "#top > div.l-side-margins > div > div.index-page-header > div > h1",
+        "title": null,
+        "desc": "#top > div.l-side-margins > div > div.index-page-header > div > div.index-page-header__description > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#top > div.l-side-margins > div > div.index-page-header > div > div.index-page-header__image-wrapper.index-page-header__image-wrapper--contributor-circle > img",
+        "single_article": "#top > div.l-side-margins > div > section",
+        "single_article_title": "#top > div.l-side-margins > div > section > div > div > div > ul > li > div > div > div.fc-item__content > div.fc-item__header > h3 > a",
+        "single_article_url": "#top > div.l-side-margins > div > section > div > div > div > ul > li > div > div > div.fc-item__content > div.fc-item__header > h3 > a",
+        "single_article_description": "#top > div.l-side-margins > div > section > div > div > div > ul > li > div > div > div.fc-item__content > div.fc-item__standfirst-wrapper.fc-item__standfirst-wrapper--timestamp > div.fc-item__standfirst",
+        "single_article_date": "#top > div.l-side-margins > div > section > div > div > div > ul > li > div > div > div.fc-item__content > div.fc-item__standfirst-wrapper.fc-item__standfirst-wrapper--timestamp > div.fc-item__meta.js-item__meta"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Guardian",
+    "url": "https://www.theguardian.com/profile/oleksandr-mykhed"
+}
+{
+    "selectors": {
+        "name": "#content > div.person-lead > div.person-lead__intro.person-lead__container > div.person-lead__item > div.person-lead__heading > div > h2",
+        "title": null,
+        "desc": "#content > div.person-lead > div.person-lead__intro.person-lead__container > div.person-lead__item > div.person-lead__bio.profile-lead-desktop > p",
+        "email": "#content > div.person-lead > div.person-lead__intro.person-lead__container > div.person-lead__item > div.person-lead__heading > div > div > ul > li:nth-child(2) > a",
+        "twitter": "#content > div.person-lead > div.person-lead__intro.person-lead__container > div.person-lead__item > div.person-lead__heading > div > div > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#content > div.person-lead > div.person-lead__intro.person-lead__container > div.person-lead__image > picture > img",
+        "single_article": "#content > div.person-feed > div:nth-child(1) > div.person-feed-items__container > div",
+        "single_article_title": "#content > div.person-feed > div:nth-child(1) > div.person-feed-items__container > div > div.wide-tease-item__info-wrapper.flex-grow-1-m > a > h2",
+        "single_article_url": "#content > div.person-feed > div:nth-child(1) > div.person-feed-items__container > div > div.wide-tease-item__info-wrapper.flex-grow-1-m > a",
+        "single_article_description": "#content > div.person-feed > div:nth-child(1) > div.person-feed-items__container > div > div.wide-tease-item__info-wrapper.flex-grow-1-m > div:nth-child(3) > div.wide-tease-item__description",
+        "single_article_date": "#content > div.person-feed > div:nth-child(1) > div.person-feed-items__container > div > div.wide-tease-item__unibrow-timestamp.df.flex-none-m > div.wide-tease-item__timestamp.dib.db-m.ml3.ml0-m"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "NBC News",
+    "url": "https://www.nbcnews.com/author/yuliya-talmazan-ncpn796546"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": "#linkedin",
+        "facebook": "#facebook",
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "USA Today",
+    "url": "https://www.usatoday.com/staff/2647507001/john-fritze/"
+}
+{
+    "selectors": {
+        "name": "#wrapper > div.page > div.pre-content > section > header > h1 > span",
+        "title": null,
+        "desc": "#wrapper > div.page > div.pre-content > section > div.content > p",
+        "email": "#wrapper > div.page > div.pre-content > section > footer > div > ul > li.email > a",
+        "twitter": "#wrapper > div.page > div.pre-content > section > footer > div > ul > li.tw > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#wrapper > div.page > div.pre-content > section > div.m.headshot.headshot-small > img",
+        "single_article": "#wrapper > div.page > div.page-content > div > main > section > div > article",
+        "single_article_title": "#wrapper > div.page > div.page-content > div > main > section > div > article > div.info > header > h4",
+        "single_article_url": "#wrapper > div.page > div.page-content > div > main > section > div > article > div.info > header > h4 > a",
+        "single_article_description": "#wrapper > div.page > div.page-content > div > main > section > div > article > div.info > div > p > a",
+        "single_article_date": "#wrapper > div.page > div.page-content > div > main > section > div > article > div.info > header > div > div > span.time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Fox News",
+    "url": "https://www.foxnews.com/person/d/paulina-dedaj"
+}
+{
+    "selectors": {
+        "name": "#main-section > div > article > div.articleTop > div.bioMeta > div > h1",
+        "title": "#main-section > div > article > div.articleTop > div.bioMeta > div > h2",
+        "desc": "#storytext",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#res763790403 > div.imagewrap.has-source-dimensions > picture > img",
+        "single_article": "#archive-core > div > article",
+        "single_article_title": "#archive-core > div > article > div.item-info-wrap > div > h2 > a",
+        "single_article_url": "#archive-core > div > article > div.item-info-wrap > div > h2 > a",
+        "single_article_description": "#archive-core > div > article > div.item-info-wrap > div > p > a",
+        "single_article_date": "#archive-core > div > article > div.item-info-wrap > div > p > a > time > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "NPR",
+    "url": "https://www.npr.org/people/763523701/shannon-bond"
+}
+{
+    "selectors": {
+        "name": "#authorName",
+        "title": null,
+        "desc": "#authordetails > div.title.noLeftPadding",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#results > div > div",
+        "single_article_title": "#results > div > div > a.title",
+        "single_article_url": "#results > div > div > a.title",
+        "single_article_description": "#results > div > div > div.description",
+        "single_article_date": "#results > div > div > div.details > span.date"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "ABC News",
+    "url": "https://abcnews.go.com/author/Isabella_Murray"
+}
+{
+    "selectors": {
+        "name": "#content > div.author-container > div > div.author-info-wrapper > h1",
+        "title": "#content > div.author-container > div > div.author-info-wrapper > h1",
+        "desc": "#content > div.author-container > div > div.author-info-wrapper > div.author-bio",
+        "email": "#content > div.author-container > div > div.author-info-wrapper > div.author-social-info-container > a:nth-child(1)",
+        "twitter": "#content > div.author-container > div > div.author-info-wrapper > div.author-social-info-container > a:nth-child(2)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "#content > div.author-container > div > div.author-info-wrapper > div.author-social-info-container > a:nth-child(2)",
+        "phone": null,
+        "pfp": "#content > div.author-container > div > div.author-image-wrapper > img",
+        "single_article": "#content > div.cleared.lead-alpha > div.alpha > div > div > div.content--2QzBt > ul > li",
+        "single_article_title": "#content > div.cleared.lead-alpha > div.alpha > div > div > div.content--2QzBt > ul > li > div > h2 > a",
+        "single_article_url": "#content > div.cleared.lead-alpha > div.alpha > div > div > div.content--2QzBt > ul > li > div > h2 > a",
+        "single_article_description": "#content > div.cleared.lead-alpha > div.alpha > div > div > div.content--2QzBt > ul > li > div > div.previewText--gdE5E.link-ccow",
+        "single_article_date": "#content > div.cleared.lead-alpha > div.alpha > div > div > div.content--2QzBt > ul > li > div > div.firstPubDate--i6kS2"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Daily Mail",
+    "url": "https://www.dailymail.co.uk/profile-486/kelsi-karruli.html"
+}
+{
+    "selectors": {
+        "name": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-8.author-description > h1",
+        "title": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-8.author-description > h1",
+        "desc": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-8.author-description",
+        "email": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-4.author-aside > section > div:nth-child(2) > div > a.author-contact-icon-link.share-link.email",
+        "twitter": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-4.author-aside > section > div:nth-child(2) > div > a.author-contact-icon-link.share-link.twitter",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#l-content > section.author-wrapper.river-item.body-regular > div > div.col-12.col-md-4.author-aside > section > div:nth-child(1) > div > img",
+        "single_article": "#l-content > section",
+        "single_article_title": "#l-content > section > section > div.tout-text-wrapper.default-tout > h2 > a",
+        "single_article_url": "#l-content > section > section > div.tout-text-wrapper.default-tout > h2 > a",
+        "single_article_description": "#l-content > section > section > div.tout-text-wrapper.default-tout > div",
+        "single_article_date": "#l-content > section > div > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Business Insider",
+    "url": "https://www.businessinsider.com/author/rebecca-rommen"
+}
+{
+    "selectors": {
+        "name": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-alpha > div.content-group.about-bio-intro > header > div > h1",
+        "title": null,
+        "desc": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-alpha > div.content-group.about-bio-description > div",
+        "email": null,
+        "twitter": "#follow-button",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-alpha > div.content-group.about-bio-description > div > figure > div > img",
+        "single_article": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-beta.is-masoned > aside > div > div > ol > li",
+        "single_article_title": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-beta.is-masoned > aside > div > div > ol > li > article > div > header > h3 > a",
+        "single_article_url": "#main > div:nth-child(2) > div > div > section.content-groupset.pos-beta.is-masoned > aside > div > div > ol > li > article > div > header > h3 > a",
+        "single_article_description": null,
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "POLITICO",
+    "url": "https://www.politico.com/staff/mackenzie-wilkes"
+}
+{
+    "selectors": {
+        "name": "#top > div > div.container.\\|.align_items_center.column.flex.justify_center.relative > h1",
+        "title": "#top > div > div.container.\\|.align_items_center.column.flex.justify_center.relative > h2",
+        "desc": "#main > div.author_body.\\|.container.grid.justify_center.margin_top_32.margin_top_64--desktop > div.author_about.\\|.col.desktop-8.font_tertiary > div.margin_bottom_64 > p",
+        "email": "#main > div.author_body.\\|.container.grid.justify_center.margin_top_32.margin_top_64--desktop > div.author_contact.\\|.col.desktop-4.margin_bottom_64 > ul > li:nth-child(2) > div > a",
+        "twitter": "#main > div.author_body.\\|.container.grid.justify_center.margin_top_32.margin_top_64--desktop > div.author_contact.\\|.col.desktop-4.margin_bottom_64 > ul > li:nth-child(1) > div > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#top > div > div.container.\\|.align_items_center.column.flex.justify_center.relative > div",
+        "single_article": "#main > div:nth-child(2) > div > div",
+        "single_article_title": "#main > div:nth-child(2) > div > div > span.bold.display_block.font_secondary.margin_bottom_half.width_full > a",
+        "single_article_url": "#main > div:nth-child(2) > div > div > span.bold.display_block.font_secondary.margin_bottom_half.width_full > a",
+        "single_article_description": "#main > div:nth-child(2) > div > div > span.display_block.font_secondary.font_size_18.margin_bottom_half.width_full",
+        "single_article_date": "#main > div:nth-child(2) > div > div > span.color_gray.display_block.font_size_12.width_full"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Boston Globe",
+    "url": "https://www.bostonglobe.com/about/staff-list/staff/danny-mcdonald"
+}
+{
+    "selectors": {
+        "name": "#main > article > div > div > div.layout__item.layout__item--main > div > header > h1",
+        "title": null,
+        "desc": "#main > article > div > div > div.layout__item.layout__item--main > div > header > div > div > div > p",
+        "email": null,
+        "twitter": "#main > article > div > div > div.layout__item.layout__item--main > div > header > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#main > article > div > div > div.layout__item.layout__item--main > div > div > div > div > div.layout.layout--full > div > div",
+        "single_article_title": "#main > article > div > div > div.layout__item.layout__item--main > div > div > div > div > div.layout.layout--full > div > div > div > div > div.story__text > h3 > a",
+        "single_article_url": "#main > article > div > div > div.layout__item.layout__item--main > div > div > div > div > div.layout.layout--full > div > div > div > div > div.story__text > h3 > a",
+        "single_article_description": "#main > article > div > div > div.layout__item.layout__item--main > div > div > div > div > div.layout.layout--full > div > div > div > div > div.story__text > p",
+        "single_article_date": "#main > article > div > div > div.layout__item.layout__item--main > div > div > div > div > div.layout.layout--full > div > div > div > div > div.story__text > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "New York Post",
+    "url": "https://nypost.com/author/nika-shakhnazarova/"
+}
+{
+    "selectors": {
+        "name": "#body-container > div:nth-child(2) > div.sc-8a0323ec-0.cwyol > div.sc-8a0323ec-1.gVyJPn > div > h1 > p",
+        "title": "#body-container > div:nth-child(2) > div.sc-8a0323ec-0.cwyol > div.sc-8a0323ec-1.gVyJPn > div > p",
+        "desc": "#body-container > div:nth-child(2) > div.sc-8a0323ec-0.cwyol > div.sc-8a0323ec-4.dobysj > p",
+        "email": null,
+        "twitter": "#body-container > div:nth-child(2) > div.sc-8a0323ec-0.cwyol > div.sc-8a0323ec-1.gVyJPn > div > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#body-container > div:nth-child(2) > div.sc-8a0323ec-0.cwyol > div.sc-a168424d-0.HlJOC.sc-8a0323ec-10.fDlMJL > span > img",
+        "single_article": "#body-container > div:nth-child(5) > div > div > div.sc-67a2781f-0",
+        "single_article_title": "#body-container > div:nth-child(5) > div > div > div.sc-67a2781f-0",
+        "single_article_url": "#body-container > div:nth-child(5) > div > div > div.sc-67a2781f-0 > a",
+        "single_article_description": "#body-container > div:nth-child(5) > div > div > div.sc-67a2781f-0",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Athletic",
+    "url": "https://theathletic.com/author/stewart-mandel/"
+}
+{
+    "selectors": {
+        "name": "#main-content > section:nth-child(2) > div > div.m-hub-header--item.m-hub-header--title > h1 > span",
+        "title": null,
+        "desc": "#main-content > section:nth-child(2) > div > div.m-hub-header--item.m-hub-header--body > div > div > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#main-content > section.m-list-hub.m-component-stack.mm-component-stack--is-stacked.mm-component-stack--has-header.mm-component-stack--has-divider.mm-component-stack--has-footer > phoenix-hub > section:nth-child(1) > phoenix-non-personalized-recommendations-no-tracking > div",
+        "single_article_title": "#main-content > section.m-list-hub.m-component-stack.mm-component-stack--is-stacked.mm-component-stack--has-header.mm-component-stack--has-divider.mm-component-stack--has-footer > phoenix-hub > section:nth-child(1) > phoenix-non-personalized-recommendations-no-tracking > div > phoenix-super-link > phoenix-card > div.m-card--content > phoenix-ellipsis > a > h2",
+        "single_article_url": "#main-content > section.m-list-hub.m-component-stack.mm-component-stack--is-stacked.mm-component-stack--has-header.mm-component-stack--has-divider.mm-component-stack--has-footer > phoenix-hub > section:nth-child(1) > phoenix-non-personalized-recommendations-no-tracking > div > phoenix-super-link",
+        "single_article_description": null,
+        "single_article_date": "#main-content > section.m-list-hub.m-component-stack.mm-component-stack--is-stacked.mm-component-stack--has-header.mm-component-stack--has-divider.mm-component-stack--has-footer > phoenix-hub > section:nth-child(1) > phoenix-non-personalized-recommendations-no-tracking > div > phoenix-super-link > phoenix-card > div.m-card--content > div.m-card--metadata > div > span:nth-child(2) > span > phoenix-timeago > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Sports Illustrated",
+    "url": "https://www.si.com/author/greg-bishop"
+}
+{
+    "selectors": {
+        "name": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.md\\:w-3\\/4 > h1",
+        "title": null,
+        "desc": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.md\\:w-3\\/4 > span",
+        "email": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.md\\:w-3\\/4 > div > a:nth-child(1)",
+        "twitter": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.md\\:w-3\\/4 > div > a:nth-child(2)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.md\\:w-3\\/4 > div > span.hidden.lg\\:flex.text-blue-mid.h-5.lg\\:leading-5.align-top.lg\\:text-4.-ml-2.type-interstitial",
+        "pfp": "#main > div.homepage-top > div.relative.font-ringside-regular.text-primary.mt-12.mb-6 > div > div > div.hidden.md\\:flex.mx-auto > img",
+        "single_article": "#main > div.homepage-top > div.block.sm\\:grid.sm\\:grid-cols-2.lg\\:grid-cols-3.grid-rows-auto.gap-x-6.sm\\:px-5 > div > div > article",
+        "single_article_title": "#main > div.homepage-top > div.block.sm\\:grid.sm\\:grid-cols-2.lg\\:grid-cols-3.grid-rows-auto.gap-x-6.sm\\:px-5 > div > div > article > article > div > div.inq-card-content.inq-card-content--closed > a > h4",
+        "single_article_url": "#main > div.homepage-top > div.block.sm\\:grid.sm\\:grid-cols-2.lg\\:grid-cols-3.grid-rows-auto.gap-x-6.sm\\:px-5 > div > div > article > article > div > div.inq-card-content.inq-card-content--closed > a",
+        "single_article_description": "#main > div.homepage-top > div.block.sm\\:grid.sm\\:grid-cols-2.lg\\:grid-cols-3.grid-rows-auto.gap-x-6.sm\\:px-5 > div > div > article > article > div > div.inq-card-content.inq-card-content--closed > div > div > a > div > p",
+        "single_article_date": "#main > div.homepage-top > div.block.sm\\:grid.sm\\:grid-cols-2.lg\\:grid-cols-3.grid-rows-auto.gap-x-6.sm\\:px-5 > div > div > article > article > div > div.inq-card-content.inq-card-content--closed > div > div > div > div.type-author.inq-author.text-neutral-text-color.inq-author--compact > div > div > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Philadelphia Inquirer",
+    "url": "https://www.inquirer.com/author/brubaker_harold/"
+}
+{
+    "selectors": {
+        "name": "#main-content > div:nth-child(2) > div.bg-soft-black-light.py-10.md\\:py-10.lg\\:pt-20 > div > div > div > h2",
+        "title": null,
+        "desc": "#main-content > div:nth-child(2) > div.bg-soft-black-light.py-10.md\\:py-10.lg\\:pt-20 > div > div > section > p",
+        "email": "#main-content > div:nth-child(2) > div.bg-soft-black-light.py-10.md\\:py-10.lg\\:pt-20 > div > div > section > ul > li:nth-child(1) > a",
+        "twitter": "#main-content > div:nth-child(2) > div.bg-soft-black-light.py-10.md\\:py-10.lg\\:pt-20 > div > div > section > ul > li:nth-child(2) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main-content > div:nth-child(2) > div.bg-soft-black-light.py-10.md\\:py-10.lg\\:pt-20 > div > div > div > div > img",
+        "single_article": "#main-content > div:nth-child(2) > div.mx-auto.px-5.w-full.sm\\:px-8.lg\\:px-20.lg\\:max-w-container.grid-layout.mt-20.mb-20.xl\\:mb-30.md\\:px-20 > div > div",
+        "single_article_title": "#main-content > div:nth-child(2) > div.mx-auto.px-5.w-full.sm\\:px-8.lg\\:px-20.lg\\:max-w-container.grid-layout.mt-20.mb-20.xl\\:mb-30.md\\:px-20 > div > div > div.col-4-12.md\\:col-5-11.m-0 > div.space-y-4 > h3 > a",
+        "single_article_url": "#main-content > div:nth-child(2) > div.mx-auto.px-5.w-full.sm\\:px-8.lg\\:px-20.lg\\:max-w-container.grid-layout.mt-20.mb-20.xl\\:mb-30.md\\:px-20 > div > div > div.col-4-12.md\\:col-5-11.m-0 > div.space-y-4 > h3 > a",
+        "single_article_description": null,
+        "single_article_date": "#main-content > div:nth-child(2) > div.mx-auto.px-5.w-full.sm\\:px-8.lg\\:px-20.lg\\:max-w-container.grid-layout.mt-20.mb-20.xl\\:mb-30.md\\:px-20 > div > div > div.col-4-12.md\\:col-5-11.m-0 > div.flex.items-center.pt-3.md\\:pt-5.justify-between > div:nth-child(1) > div > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Axios",
+    "url": "https://www.axios.com/authors/jknutson"
+}
+{
+    "selectors": {
+        "name": "#buzz-content",
+        "title": null,
+        "desc": "#__next > main > div.backgroundGray__2cwraWmCKt > div > div > div > div > div > div > p",
+        "email": null,
+        "twitter": "#__next > main > div.backgroundGray__2cwraWmCKt > div > div > div > div > div > div > ul > li > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#__next > main > div.backgroundGray__2cwraWmCKt > div > div > div > div > img",
+        "single_article": "#__next > main > div.backgroundWhite__24L5cpGETv > div > div:nth-child(1) > ul > li",
+        "single_article_title": "#__next > main > div.backgroundWhite__24L5cpGETv > div > div:nth-child(1) > ul > li > article > div.postInfo__10Y_6 > h3 > a",
+        "single_article_url": "#__next > main > div.backgroundWhite__24L5cpGETv > div > div:nth-child(1) > ul > li > article > div.postInfo__10Y_6 > h3 > a",
+        "single_article_description": "#__next > main > div.backgroundWhite__24L5cpGETv > div > div:nth-child(1) > ul > li > article > div.postInfo__10Y_6 > p",
+        "single_article_date": "#__next > main > div.backgroundWhite__24L5cpGETv > div > div:nth-child(1) > ul > li > article > div.postInfo__10Y_6 > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "BuzzFeed",
+    "url": "https://www.buzzfeed.com/emmalord9"
+}
+{
+    "selectors": {
+        "name": "#__next > div > main > div > div.contributor-page-header > h1",
+        "title": "#__next > div > main > div > div.contributor-page-header > h2",
+        "desc": "#__next > div > main > div > div.contributor-page-header > p",
+        "email": "#__next > div > main > div > div.contributor-page-header > a",
+        "twitter": "#__next > div > main > div > div.contributor-page-header > div.contributor-page-header__social > div > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#__next > div > main > div > div.contributor-page-header > div.avatar.avatar__large.undefined > img",
+        "single_article": "#__next > div > main > div > div.topic-page__cards > ul > li",
+        "single_article_title": "#__next > div > main > div > div.topic-page__cards > ul > li > div > div.vice-card__content > h3 > a",
+        "single_article_url": "#__next > div > main > div > div.topic-page__cards > ul > li > div > div.vice-card__content > h3 > a",
+        "single_article_description": "#__next > div > main > div > div.topic-page__cards > ul > li > div > div.vice-card__content > p",
+        "single_article_date": "#__next > div > main > div > div.topic-page__cards > ul > li > div > div.vice-card__content > div.vice-card-details.vice-card-details--light.vice-card__vice-card-details > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "VICE",
+    "url": "https://www.vice.com/en/contributor/manisha-krishnan"
+}
+{
+    "selectors": {
+        "name": "#main-content > div.ContributorHeaderWrapper-cMHleS.bnIcwz.ContributorPageHeader-focxHi.AiInS > div > div > h1",
+        "title": null,
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "div.summary-list__items > div.SummaryItemWrapper-iwvBff",
+        "single_article_title": "div.summary-list__items > div.SummaryItemWrapper-iwvBff > div.SummaryItemContent-eiDYMl > a",
+        "single_article_url": "div.summary-list__items > div.SummaryItemWrapper-iwvBff > div.SummaryItemContent-eiDYMl > a",
+        "single_article_description": "div.summary-list__items > div.SummaryItemWrapper-iwvBff > div.SummaryItemContent-eiDYMl > div.BaseWrap-sc-gjQpdd",
+        "single_article_date": "div.summary-list__items > div.SummaryItemWrapper-iwvBff > div.SummaryItemContent-eiDYMl > div.SummaryItemBylineWrapper-boCfbi"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The New Yorker",
+    "url": "https://www.newyorker.com/contributors/madeleine-schwartz"
+}

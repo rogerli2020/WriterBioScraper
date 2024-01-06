@@ -1,0 +1,2 @@
+site:https://www.8newsnow.com/author/ https://www.8newsnow.com/author/
+site:https://www.northjersey.com/staff/ https://www.northjersey.com/staff/

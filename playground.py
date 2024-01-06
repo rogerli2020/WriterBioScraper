@@ -1,1 +1,0 @@
-from journalists_crawler.crawler_manager import CrawlerManager

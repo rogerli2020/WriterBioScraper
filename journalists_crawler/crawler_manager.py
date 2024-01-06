@@ -54,6 +54,7 @@ class CrawlerManager:
         if not page_source: 
             print(f'Warning: no page source passed in for {root_url}')
             return []
+        if page_source == None: page_source = ''
         soup = BeautifulSoup(page_source, 'html.parser')
         all_links = soup.find_all('a', href=True)
         same_domain_links = [link['href'] for link in all_links if urlparse(urljoin(root_url, link['href'])).netloc == root_domain]
@@ -86,21 +87,7 @@ class CrawlerManager:
                     crawler.finished = True
                     continue
                 url = node.data
-
-                # workaround for selenium error
-                all_good = False
-                while not all_good:
-                    try:
-                        page_source = self.page_source_getter.get_page_source(url)
-                        all_good = True
-                    except Exception as e:
-                        print(e)
-                        print('Random ass error happened again. Retrying...')
-                        self.page_source_getter.driver.quit()
-                        self.page_source_getter = PageSourceGetter()
-                        page_source = ""
-                        all_good = True
-
+                page_source = self.page_source_getter.get_page_source(url)
                 child_urls = self.extract_urls(page_source, crawler.root_url)
                 crawler.generate_and_add_child_nodes(node, child_urls)
                 time.sleep(time_gap)
