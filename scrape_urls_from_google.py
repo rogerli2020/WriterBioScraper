@@ -31,7 +31,7 @@ def get_page_source(url):
     while True:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         print("Trying to click...")
-        element_to_click = WebDriverWait(driver, 9999).until(EC.element_to_be_clickable(element_locator))
+        element_to_click = WebDriverWait(driver, 5).until(EC.element_to_be_clickable(element_locator))
         try:
             element_to_click.click()
         except:
