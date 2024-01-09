@@ -350,5 +350,5 @@ domain_url_regex = {
 	'www.fox32chicago.com' : r'https://www\.fox32chicago\.com/person/([^/]+)/([^/]+)$',
 	'www.knoxnews.com' : r'https://www\.knoxnews\.com/staff/(\d+)/([^/]+)/$',
 	'www.nme.com' : r'https://www\.nme\.com/author/([^/]+)$',
-	'abc11.com' : r'https://abc11\.com/about/newsteam/([^/]+)/$',
+	'abc11.com' : r'https://abc11\.com/about/newsteam/([^/]+)',
 }

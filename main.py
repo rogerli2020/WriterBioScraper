@@ -27,6 +27,7 @@ if __name__ == '__main__':
     parser.add_argument('-crawl', '--crawl', dest='crawl', action='store_true', help='Start crawling for journalist URLs given an input file of URLs to start scraping from.')
     parser.add_argument('-adds', '--add-scraper', dest='add_scraper', action='store_true', help="Add CSS Selectors for different components of an outlet's journalist profile pages.")
     parser.add_argument('-extract', '--extract', dest='extract', action='store_true', help='Extract profile URLs of a local HTML given an outlet domain.')
+    parser.add_argument('--shuffle', '--shuffle', dest='shuffle', action='store_true', help='Shuffle input list.')
     args = parser.parse_args()
 
     # start manual identification process if user wishes to do so.
@@ -36,7 +37,7 @@ if __name__ == '__main__':
         sys.exit(0)
 
     # start the crawling process if user wishes to do so.
-    if args.crawl_for_profile_urls:
+    elif args.crawl:
         crawler_manager = CrawlerManager(
             False, 
             DEFAULT_CRAWL_ROOT_URLS_PATH, 

@@ -28,17 +28,26 @@ class PageSourceGetter:
         self.options = options
         self.max_retries = max_retries
 
-    def get_page_source(self, url: str, timeout: int = 10, retries = 0) -> str:
+    def get_page_source(self, url: str, timeout: int=10, retries=0, reinstantiate_after=False) -> str:
         if retries >= self.max_retries: return ""
         if retries > 0: print(f'Retrying for the {retries} time...')
+        self.driver.set_page_load_timeout(timeout)
+        self.driver.implicitly_wait(timeout)
         try:
-            self.driver.set_script_timeout(timeout)
-            self.driver.set_page_load_timeout(timeout)
             self.driver.get(url)
             return self.driver.page_source  
         except TimeoutException:
             print("A timeout exception happened...")
+            self.reinstantiate_driver()
             self.get_page_source(url, timeout+5, retries+1)
         except Exception:
             print("An exception occured...")
+            self.reinstantiate_driver()
             self.get_page_source(url, 5, retries+1)
+        finally:
+            if reinstantiate_after:
+                self.reinstantiate_driver()
+    
+    def reinstantiate_driver(self):
+        self.driver.quit()
+        self.driver = webdriver.Chrome(options=self.options)
