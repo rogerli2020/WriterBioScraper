@@ -44,11 +44,17 @@ def get_url(search_query : str):
     return url
 
 
+def get_query_and_url(line : str):
+    line = line.replace('\n', '')
+    query = 'site:' + line
+    return query, line
+
 
 with open('./input_info.txt', 'r') as f:
     for line in f.readlines():
         line = line.strip()
-        query, url = line.split(' ')
+        # query, url = line.split(' ')
+        query, url = get_query_and_url(line)
         print(f'Processing query: {query}...')
         domain = urlparse(url).netloc
         google_search_page_src = get_page_source(get_url(query))

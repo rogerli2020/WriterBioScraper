@@ -75,5 +75,51 @@
         "post_selectors": {},
         "outlet_name": "Columbus Business First",
         "url": "https://www.bizjournals.com/columbus/bio/43300/Amanda+Tonoli"
+    },
+    "-abc": {
+        "selectors": {
+            "name": "#fitt-analytics > div > div > main > div.content.team-bio > section > h1",
+            "title": null,
+            "desc": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner",
+            "email": null,
+            "twitter": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(4)",
+            "linkedin": null,
+            "facebook": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(2)",
+            "instagram": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(6)",
+            "phone": null,
+            "pfp": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-headshot.inner > img",
+            "single_article": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+            "single_article_title": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+            "single_article_url": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+            "single_article_description": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > div",
+            "single_article_date": null
+        },
+        "post_selectors": {},
+        "selectors_type": "css",
+        "outlet_name": "KABC-TV (Los Angeles, CA)",
+        "url": "https://abc7.com/about/newsteam/christiane-cordero/"
+    },
+    "-daily": {
+        "selectors": {
+            "name": "#main > div > div.info > header > div > h1",
+            "title": "#main > div > div.info > header > div > span",
+            "desc": "#main > div > div.info > div > div.author-full-bio > p",
+            "email": "#main > div > div.info > header > ul > li:nth-child(2) > a",
+            "twitter": "#main > div > div.info > header > ul > li:nth-child(1) > a",
+            "linkedin": null,
+            "facebook": null,
+            "instagram": null,
+            "phone": null,
+            "pfp": "#main > div > div.info > header > img",
+            "single_article": "#main > div > div.author-stories-feed > div > article",
+            "single_article_date": "#main > div > div.author-stories-feed > div > article > div > header > div > time",
+            "single_article_title": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a > span",
+            "single_article_description": "#main > div > div.author-stories-feed > div > article > div > div",
+            "single_article_url": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a"
+        },
+        "post_selectors": {},
+        "selectors_type": "css",
+        "outlet_name": "Daily Press (Newport News, VA)",
+        "url": "https://www.dailypress.com/author/andrea-noble/"
     }
 }

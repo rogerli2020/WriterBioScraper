@@ -8,7 +8,7 @@ import time
 import random
 
 class PageSourceGetter:
-    def __init__(self, max_retries=3):
+    def __init__(self, max_retries=4):
         options = Options()
         options.add_argument("--window-size=1280x720")
         options.add_argument('--blink-settings=imagesEnabled=false')
@@ -35,18 +35,18 @@ class PageSourceGetter:
         self.driver.implicitly_wait(timeout)
         try:
             self.driver.get(url)
-            return self.driver.page_source  
+            time.sleep(random.uniform(0.75, 1.25))
+            page_source = self.driver.page_source
+            if reinstantiate_after: self.reinstantiate_driver()
+            return page_source
         except TimeoutException:
-            print("A timeout exception happened...")
+            print("[WARNING] A timeout exception happened...")
             self.reinstantiate_driver()
             self.get_page_source(url, timeout+5, retries+1)
         except Exception:
-            print("An exception occured...")
+            print("[WARNING] An exception occured...")
             self.reinstantiate_driver()
-            self.get_page_source(url, 5, retries+1)
-        finally:
-            if reinstantiate_after:
-                self.reinstantiate_driver()
+            self.get_page_source(url, timeout, retries+1)
     
     def reinstantiate_driver(self):
         self.driver.quit()

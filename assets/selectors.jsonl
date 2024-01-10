@@ -2077,11 +2077,11 @@
         "instagram": null,
         "phone": null,
         "pfp": null,
-        "single_article": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div:nth-child(5) > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
-        "single_article_title": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div:nth-child(5) > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
-        "single_article_url": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div:nth-child(5) > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
-        "single_article_description": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div:nth-child(5) > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > div.SummaryItemBylineWrapper-boCfbi.hYsZi.summary-item__byline-date-icon.summary-item__byline-date-icon--no-author > time",
-        "single_article_date": ":nth-child(5)"
+        "single_article": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_title": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_url": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_description": null,
+        "single_article_date": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section:nth-child(1) > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.cCNbUi.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > div.SummaryItemBylineWrapper-boCfbi.hYsZi.summary-item__byline-date-icon.summary-item__byline-date-icon--no-author > time"
     },
     "post_selectors": {},
     "selectors_type": "css",
@@ -2110,29 +2110,6 @@
     "selectors_type": "css",
     "outlet_name": "Variety",
     "url": "https://variety.com/author/michael-schneider/"
-}
-{
-    "selectors": {
-        "name": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div.mb-18.flex.md\\:mb-0 > div:nth-child(2) > div.mb-6.flex.items-center.md\\:mb-10 > h1",
-        "title": null,
-        "desc": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div.lc_BW.break-words.text-medium-2-r.text-share-text-3 > div",
-        "email": null,
-        "twitter": null,
-        "linkedin": null,
-        "facebook": null,
-        "instagram": null,
-        "phone": null,
-        "pfp": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div.mb-18.flex.md\\:mb-0 > div.mr-18.shrink-0.md\\:mr-36.flex.shrink-0.items-center.justify-center.relative.w-80.h-80.md\\:w-170.md\\:h-170.rounded-full > img",
-        "single_article": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a",
-        "single_article_title": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a",
-        "single_article_url": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a",
-        "single_article_description": null,
-        "single_article_date": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > div.mb-4.text-small-2-r > span:nth-child(2)"
-    },
-    "post_selectors": {},
-    "selectors_type": "css",
-    "outlet_name": "Seeking Alpha",
-    "url": "https://seekingalpha.com/author/blake-downer"
 }
 {
     "selectors": {
@@ -2251,6 +2228,29 @@
 }
 {
     "selectors": {
+        "name": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div > div:nth-child(2) > div.mb-6.flex.items-center.md\\:mb-10 > h1",
+        "title": null,
+        "desc": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div > div:nth-child(2) > div.md\\:mb-20 > div > div",
+        "email": null,
+        "twitter": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div > div:nth-child(2) > div:nth-child(4) > div.flex > a:nth-child(2)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#content > div.container.xxl\\:px-safe-or-36.md\\:px-safe-or-18.flex.flex-col > div > div > div.mr-18.shrink-0.md\\:mr-36.flex.shrink-0.items-center.justify-center.relative.w-80.h-80.md\\:w-170.md\\:h-170.rounded-full > img",
+        "single_article": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a",
+        "single_article_title": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a > span",
+        "single_article_url": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > a",
+        "single_article_description": null,
+        "single_article_date": "#content > div:nth-child(4) > div > div.gr_ve.relative.w-0.min-w-0.max-w-full.grow.basis-0.empty\\:hidden.pl-18.xl\\:pl-36 > section > div > div.w-full.max-w-full > div:nth-child(1) > article > div > div > div > div.mb-4.text-small-2-r > span:nth-child(2)"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Seeking Alpha",
+    "url": "https://seekingalpha.com/author/blake-downer"
+}
+{
+    "selectors": {
         "name": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > section > div.c-user-card__main > h1",
         "title": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > section > div.c-user-card__main > p",
         "desc": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > p",
@@ -2271,4 +2271,971 @@
     "selectors_type": "css",
     "outlet_name": "SB Nation",
     "url": "https://www.sbnation.com/authors/mark-schofield"
+}
+{
+    "selectors": {
+        "name": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Author__VillainWrapper-sc-16ord1k-1.jyrrUq > div > react-trigger > div > div.Villain__FlexDiv-sc-1y12ps5-0.hsApLD > div > div > div.Villain__TitleContainer-sc-1y12ps5-6.knjdTo > div > div > h1",
+        "title": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Author__VillainWrapper-sc-16ord1k-1.jyrrUq > div > react-trigger > div > div.Villain__FlexDiv-sc-1y12ps5-0.hsApLD > div > div > div.Villain__TitleContainer-sc-1y12ps5-6.knjdTo > div > div > p",
+        "desc": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.Raw-slyvem-0.Author__Bio-sc-16ord1k-2.ffgenv.cXRjNT",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Author__VillainWrapper-sc-16ord1k-1.jyrrUq > div > react-trigger > div > div.Villain__FlexDiv-sc-1y12ps5-0.hsApLD > div > div > div.Villain__TitleContainer-sc-1y12ps5-6.knjdTo > div > picture > img",
+        "single_article": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.pt3 > div > div",
+        "single_article_title": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.pt3 > div > div > div.Box-w0dun1-0.MediaObject__Content-sc-19vl09d-3.dWWnRo.lhdCWz > h3 > a",
+        "single_article_url": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.pt3 > div > div > div.Box-w0dun1-0.MediaObject__Content-sc-19vl09d-3.dWWnRo.lhdCWz > h3 > a",
+        "single_article_description": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.pt3 > div > div > div.Box-w0dun1-0.MediaObject__Content-sc-19vl09d-3.dWWnRo.lhdCWz > p.Paragraph-sc-1iyax29-0.cWwUCO.Hide-kg09cx-0.hWOBmI",
+        "single_article_date": "#app > div.Author__PageWrapper-sc-16ord1k-0.gTWYhG > div.Content-sc-837ada-0.kkKJUL.content > div > div.Cell-sc-1abjmm4-0.jHkzqw > div.pt3 > div > div > div.Box-w0dun1-0.MediaObject__Content-sc-19vl09d-3.dWWnRo.lhdCWz > p.Paragraph-sc-1iyax29-0.Byline-sc-7cv027-0.jcNghP.eInBRL > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "U.S. News & World Report",
+    "url": "https://www.usnews.com/topics/author/julia-haines"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": "#linkedin",
+        "facebook": "#facebook",
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "The  Arizona Republic",
+    "url": "https://www.azcentral.com/staff/71719473007/caralin-nunes/"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": "#linkedin",
+        "facebook": "#facebook",
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "Detroit Free Press",
+    "url": "https://www.freep.com/staff/9460771002/tony-garcia/"
+}
+{
+    "selectors": {
+        "name": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > h1",
+        "title": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > p",
+        "desc": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > div.text-left.prose-blue.prose.prose-lg.mb-6",
+        "email": null,
+        "twitter": null,
+        "linkedin": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > div:nth-child(4) > a.rounded-full.inline-flex.justify-center.items-center.hover\\:shadow-md.text-gray-800.bg-gray-100.hover\\:bg-gray-500.hover\\:text-white.mx-1.mt-6.shadow.h-12.w-12.share-linkedin",
+        "facebook": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > div:nth-child(4) > a.rounded-full.inline-flex.justify-center.items-center.hover\\:shadow-md.text-gray-800.bg-gray-100.hover\\:bg-gray-500.hover\\:text-white.mr-1.mt-6.shadow.h-12.w-12.share-facebook",
+        "instagram": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.items-center > div:nth-child(4) > a.rounded-full.inline-flex.justify-center.items-center.hover\\:shadow-md.text-gray-800.bg-gray-100.hover\\:bg-gray-500.hover\\:text-white.mx-1.mt-6.shadow.h-12.w-12.share-instagram",
+        "phone": null,
+        "pfp": "#content > div:nth-child(1) > div > div.text-center.lg\\:text-left.flex.flex-col.w-full.pt-0.lg\\:pt-6.mb-6.sm\\:mb-12.lg\\:flex-row.lg\\:justify-start > div.mx-auto.lg\\:mx-0.lg\\:mr-6 > div > img",
+        "single_article": "#content > div:nth-child(1) > div > div.lg\\:grid.lg\\:grid-cols-3.lg\\:gap-6.xl\\:gap-12 > div > div.flex.flex-col.flex-grow.flex-1 > div > h2 > a",
+        "single_article_title": "#content > div:nth-child(1) > div > div.lg\\:grid.lg\\:grid-cols-3.lg\\:gap-6.xl\\:gap-12 > div > div.flex.flex-col.flex-grow.flex-1 > div > h2 > a",
+        "single_article_url": "#content > div:nth-child(1) > div > div.lg\\:grid.lg\\:grid-cols-3.lg\\:gap-6.xl\\:gap-12 > div > div.flex.flex-col.flex-grow.flex-1 > div > h2 > a",
+        "single_article_description": "#content > div:nth-child(1) > div > div.lg\\:grid.lg\\:grid-cols-3.lg\\:gap-6.xl\\:gap-12 > div > div.flex.flex-col.flex-grow.flex-1 > div > p",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Entrepreneur Magazine",
+    "url": "https://www.entrepreneur.com/author/amy-chambers"
+}
+{
+    "selectors": {
+        "name": "#main > article > header > h1",
+        "title": null,
+        "desc": "#main > article > div",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > article > div > div.profile-badge.profile-badge--float > figure > div > img",
+        "single_article": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_title": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_url": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_description": "#main > article > section > div.article-list__content > article > div > footer > a",
+        "single_article_date": "#main > article > section > div.article-list__content > article > div > footer > time"
+    },
+    "post_selectors": {
+        "single_article_date": "datetime"
+    },
+    "selectors_type": "css",
+    "outlet_name": "WGN-TV (Chicago, IL)",
+    "url": "https://wgntv.com/author/robin-baumgarten/"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": "#profile-main > div.details > div",
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "twitter": "#profile-main > div.details > ul > li:nth-child(2) > a",
+        "linkedin": "#profile-main > div.details > ul > li:nth-child(3) > a",
+        "facebook": "#profile-main > div.details > ul > li:nth-child(4) > a",
+        "instagram": "#profile-main > div.details > ul > li:nth-child(5) > a",
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "The Advocate (Baton Rouge, LA)",
+    "url": "https://www.theadvocate.com/users/profile/scott%20rabalais/"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": "#linkedin",
+        "facebook": "#facebook",
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "Milwaukee Journal Sentinel",
+    "url": "https://www.jsonline.com/staff/9722381002/kelly-meyerhofer/"
+}
+{
+    "selectors": {
+        "name": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.mx-auto.gap-5.px-5.md\\:gap-6 > div.mt-\\[30px\\].flex.gap-5.border-\\[\\#E8E8E8\\].pb-5.md\\:mt-9.md\\:grid.md\\:grid-cols-6.md\\:gap-6.md\\:border-b.md\\:border-solid.md\\:border-\\[\\#595959\\].md\\:pb-6 > div.pt-\\[20px\\].md\\:col-span-5 > div:nth-child(1) > span",
+        "title": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.mx-auto.gap-5.px-5.md\\:gap-6 > div.mt-\\[30px\\].flex.gap-5.border-\\[\\#E8E8E8\\].pb-5.md\\:mt-9.md\\:grid.md\\:grid-cols-6.md\\:gap-6.md\\:border-b.md\\:border-solid.md\\:border-\\[\\#595959\\].md\\:pb-6 > div.pt-\\[20px\\].md\\:col-span-5 > div.text-sm.font-light.text-\\[\\#737373\\].md\\:text-base",
+        "desc": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.mx-auto.gap-5.px-5.md\\:gap-6 > div.mt-\\[30px\\].flex.gap-5.border-\\[\\#E8E8E8\\].pb-5.md\\:mt-9.md\\:grid.md\\:grid-cols-6.md\\:gap-6.md\\:border-b.md\\:border-solid.md\\:border-\\[\\#595959\\].md\\:pb-6 > div.pt-\\[20px\\].md\\:col-span-5 > div.hidden.pt-\\[13px\\].md\\:block > span",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.mx-auto.gap-5.px-5.md\\:gap-6 > div.mt-\\[30px\\].flex.gap-5.border-\\[\\#E8E8E8\\].pb-5.md\\:mt-9.md\\:grid.md\\:grid-cols-6.md\\:gap-6.md\\:border-b.md\\:border-solid.md\\:border-\\[\\#595959\\].md\\:pb-6 > div.md\\:col-span-1 > div > picture > img",
+        "single_article": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.block.px-5.md\\:grid.md\\:grid-cols-4.md\\:gap-3 > div.col-span-3.grid.grid-cols-3.md\\:col-span-3.md\\:pr-\\[18px\\].lg\\:block > div > div.col-span-full.lg\\:col-span-3 > a",
+        "single_article_title": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.block.px-5.md\\:grid.md\\:grid-cols-4.md\\:gap-3 > div.col-span-3.grid.grid-cols-3.md\\:col-span-3.md\\:pr-\\[18px\\].lg\\:block > div > div.col-span-full.lg\\:col-span-3 > a",
+        "single_article_url": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.block.px-5.md\\:grid.md\\:grid-cols-4.md\\:gap-3 > div.col-span-3.grid.grid-cols-3.md\\:col-span-3.md\\:pr-\\[18px\\].lg\\:block > div > div.col-span-full.lg\\:col-span-3 > a",
+        "single_article_description": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.block.px-5.md\\:grid.md\\:grid-cols-4.md\\:gap-3 > div.col-span-3.grid.grid-cols-3.md\\:col-span-3.md\\:pr-\\[18px\\].lg\\:block > div > div.col-span-full.lg\\:col-span-3 > div.hidden.md\\:block > div.text-gray-70.tracking-\\[-0\\.2px\\].antialiased.mb-3.text-\\[16px\\]",
+        "single_article_date": "body > div.min-h-screen > div.mx-auto.min-h-screen.max-w-screen-xl > div.block.px-5.md\\:grid.md\\:grid-cols-4.md\\:gap-3 > div.col-span-3.grid.grid-cols-3.md\\:col-span-3.md\\:pr-\\[18px\\].lg\\:block > div > div.col-span-full.lg\\:col-span-3 > div.hidden.md\\:block > div.flex.gap-2 > div:nth-child(1) > div"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Epoch Times",
+    "url": "https://www.theepochtimes.com/author/marina-zhang"
+}
+{
+    "selectors": {
+        "name": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__image-box > div > div > a.TrackingLink.Byline__name-link.AuthorTopBox__byline-name-link > h1",
+        "title": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__image-box > div > div > a.TrackingLink.Byline__job-title-link.AuthorTopBox__byline-job-title-link > p",
+        "desc": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__mobiledoc-bio-box > div > p",
+        "email": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__image-box > div > div > a.Byline__email.AuthorTopBox__byline-email",
+        "twitter": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__image-box > div > div > a.Byline__twitter.AuthorTopBox__byline-twitter",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#react-mount-point > main > section > div > div.WrapGrid__author-top-box > section > div.AuthorTopBox__image-box > div > div > a.TrackingLink.Byline__photo-link.AuthorTopBox__byline-photo-link > img",
+        "single_article": "#react-mount-point > main > section > div > div.WrapGrid__story-list > article > div > div.GridStory__title-link._15zfx > a",
+        "single_article_title": "#react-mount-point > main > section > div > div.WrapGrid__story-list > article > div > div.GridStory__title-link._15zfx > a",
+        "single_article_url": "#react-mount-point > main > section > div > div.WrapGrid__story-list > article > div > div.GridStory__title-link._15zfx > a",
+        "single_article_description": "#react-mount-point > main > section > div > div.WrapGrid__story-list > article > div > p",
+        "single_article_date": "#react-mount-point > main > section > div > div.WrapGrid__story-list > article > div > div.GridStory__byline > div.PublicationTime.GridStory__publication-date > time > span.PublicationTime__date"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Daily Beast",
+    "url": "https://www.thedailybeast.com/author/kevin-fallon?ref=home"
+}
+{
+    "selectors": {
+        "name": "#main > article > header > h1",
+        "title": "#main > article > div > p:nth-child(2)",
+        "desc": "#main > article > div",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_title": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_url": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_description": "#main > article > section > div.article-list__content > article > div > footer > a",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "KTLA-TV (Los Angeles, CA)",
+    "url": "https://ktla.com/author/marc-sternfield/"
+}
+{
+    "selectors": {
+        "name": "#main > div.view > article > section.section--island.article-section--centered > div > div.Person_details__DXUei > h2",
+        "title": "#main > div.view > article > section.section--island.article-section--centered > div > div.Person_details__DXUei > p",
+        "desc": "#main > div.view > article > section.article-section--content.hang-punctuation.article-section--first.article-section--centered.Person_bio__Q69Ga",
+        "email": "#main > div.view > article > section.section--island.article-section--centered > div > div.Person_details__DXUei > div > a",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div.view > article > section.section--island.article-section--centered > div > div.Person_image__EK795 > picture > img",
+        "single_article": "#stream-staff-archive-5",
+        "single_article_title": "#main > div.view > article > section:nth-child(3) > div > div > article > div > div > a > h1",
+        "single_article_url": "#main > div.view > article > section:nth-child(3) > div > div > article > div > div > a",
+        "single_article_description": "#main > div.view > article > section:nth-child(3) > div > div > article > div > div > a > p",
+        "single_article_date": "#main > div.view > article > section:nth-child(3) > div > div > article > div > div > div > span > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WBUR-FM (Boston, MA)",
+    "url": "https://www.wbur.org/inside/staff/meghan-b-kelly"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": "#profile-main > div.details > div",
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "twitter": "#profile-main > div.details > ul > li:nth-child(2) > a",
+        "linkedin": "#profile-main > div.details > ul > li:nth-child(3) > a",
+        "facebook": "#profile-main > div.details > ul > li:nth-child(4) > a",
+        "instagram": "#profile-main > div.details > ul > li:nth-child(5) > a",
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Post and Courier",
+    "url": "https://www.postandcourier.com/users/profile/johnmcdermott/"
+}
+{
+    "selectors": {
+        "name": "body > div.main-container > div.page-grid-container > div.content-container > section.bg-gray-100.pt-16px.px-24px.md\\:px-40px > div.flex.items-start.mx-auto.max-w-1280.py-24px.md\\:py-32px > div > h1",
+        "title": null,
+        "desc": "body > div.main-container > div.page-grid-container > div.content-container > section.bg-gray-100.pt-16px.px-24px.md\\:px-40px > div.flex.items-start.mx-auto.max-w-1280.py-24px.md\\:py-32px > div > p",
+        "email": null,
+        "twitter": "body > div.main-container > div.page-grid-container > div.content-container > section.bg-gray-100.pt-16px.px-24px.md\\:px-40px > div.flex.items-start.mx-auto.max-w-1280.py-24px.md\\:py-32px > div > div > div > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.main-container > div.page-grid-container > div.content-container > section.bg-gray-100.pt-16px.px-24px.md\\:px-40px > div.flex.items-start.mx-auto.max-w-1280.py-24px.md\\:py-32px > img",
+        "single_article": "#aggregator-article-container > div > div > div > a > h5",
+        "single_article_title": "#aggregator-article-container > div > div > div > a > h5",
+        "single_article_url": "#aggregator-article-container > div > div > div > a",
+        "single_article_description": "#aggregator-article-container > div > div > div > a > div",
+        "single_article_date": "#aggregator-article-container > div > div > div > div"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Motley Fool (U.S.)",
+    "url": "https://www.fool.com/author/1280/"
+}
+{
+    "selectors": {
+        "name": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > section > div.c-user-card__main > h1",
+        "title": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > section > div.c-user-card__main > p",
+        "desc": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > p",
+        "email": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-user-card__social > div > ul > li:nth-child(1) > a",
+        "twitter": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-user-card__social > div > ul > li:nth-child(2) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > section > div.c-user-card__profile-pic > img",
+        "single_article": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-compact-river > div > div > div > h2",
+        "single_article_title": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-compact-river > div > div > div > h2",
+        "single_article_url": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-compact-river > div > div > a",
+        "single_article_description": null,
+        "single_article_date": "body > div.l-root.l-reskin > div.l-wrapper > div > div.l-col__main > div.c-compact-river > div > div > div > div > span.c-byline-wrapper > span:nth-child(2) > time"
+    },
+    "post_selectors": {
+        "single_article_date": "datetime"
+    },
+    "selectors_type": "css",
+    "outlet_name": "Vox",
+    "url": "https://www.vox.com/authors/rachel-m-cohen"
+}
+{
+    "selectors": {
+        "name": "#section-heading",
+        "title": null,
+        "desc": null,
+        "email": "#main-wrapper > main > div.a-author-grid__main.lrv-a-wrapper.lrv-u-margin-t-1.lrv-u-margin-t-3\\@desktop-xl.lrv-u-margin-t-2\\@desktop.lrv-u-margin-t-1\\@mobile-max > div > div > section.author-blurb.\\/\\/.a-author-blurb-grid.lrv-u-margin-b-2 > div.a-author-blurb-grid__details > nav > ul > li > a",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#title-of-a-story > a",
+        "single_article_title": "#title-of-a-story > a",
+        "single_article_url": "#title-of-a-story > a",
+        "single_article_description": "#main-wrapper > main > div.a-author-grid__main.lrv-a-wrapper.lrv-u-margin-t-1.lrv-u-margin-t-3\\@desktop-xl.lrv-u-margin-t-2\\@desktop.lrv-u-margin-t-1\\@mobile-max > div > div > section.latest-stories-news-river > div:nth-child(2) > div > div > div.lrv-u-flex.lrv-u-flex-direction-column.lrv-u-height-100p.lrv-u-justify-content-center > p",
+        "single_article_date": "#main-wrapper > main > div.a-author-grid__main.lrv-a-wrapper.lrv-u-margin-t-1.lrv-u-margin-t-3\\@desktop-xl.lrv-u-margin-t-2\\@desktop.lrv-u-margin-t-1\\@mobile-max > div > div > section.latest-stories-news-river > div:nth-child(2) > div > div > div.lrv-u-flex.lrv-u-flex-direction-column.lrv-u-height-100p.lrv-u-justify-content-center > ul.lrv-u-flex.lrv-u-order-n1.lrv-a-unstyle-list.lrv-a-space-children-horizontal.lrv-a-space-children--050.lrv-u-margin-b-050.u-letter-spacing-012 > li:nth-child(2) > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/author/marc-freeman/"
+}
+{
+    "selectors": {
+        "name": "#main-content > div > div.container > div > div > h1 > span",
+        "title": "#main-content > div > div.container > div > div > h3",
+        "desc": "#main-content > div > div.container > div > div > p",
+        "email": "#main-content > div > div.container > div > div > div.routes-Staff-component-___StaffMember__author_Links > a:nth-child(2)",
+        "twitter": "#main-content > div > div.container > div > div > div.routes-Staff-component-___StaffMember__author_Links > a:nth-child(1)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main-content > div > div.container > div > div > div.routes-Staff-component-___StaffMember__author_Image > img",
+        "single_article": "#main-content > div > div.wp-block-post-list.wp-block.wp-block--nomargintop > div > div > div.components-List-components-GridNouveau-___GridNouveau__grid.components-List-components-GridNouveau-___GridNouveau__card4.components-List-components-GridNouveau-___GridNouveau__container12tablet.components-List-components-GridNouveau-___GridNouveau__container12.components-List-components-GridNouveau-___GridNouveau__card6tablet > div > div > div.components-Card-components-CardArticle2-___CardArticle2__card_Text > h3",
+        "single_article_title": "#main-content > div > div.wp-block-post-list.wp-block.wp-block--nomargintop > div > div > div.components-List-components-GridNouveau-___GridNouveau__grid.components-List-components-GridNouveau-___GridNouveau__card4.components-List-components-GridNouveau-___GridNouveau__container12tablet.components-List-components-GridNouveau-___GridNouveau__container12.components-List-components-GridNouveau-___GridNouveau__card6tablet > div > div > div.components-Card-components-CardArticle2-___CardArticle2__card_Text > h3",
+        "single_article_url": "#main-content > div > div.wp-block-post-list.wp-block.wp-block--nomargintop > div > div > div.components-List-components-GridNouveau-___GridNouveau__grid.components-List-components-GridNouveau-___GridNouveau__card4.components-List-components-GridNouveau-___GridNouveau__container12tablet.components-List-components-GridNouveau-___GridNouveau__container12.components-List-components-GridNouveau-___GridNouveau__card6tablet > div > div > a",
+        "single_article_description": null,
+        "single_article_date": "#main-content > div > div.wp-block-post-list.wp-block.wp-block--nomargintop > div > div > div.components-List-components-GridNouveau-___GridNouveau__grid.components-List-components-GridNouveau-___GridNouveau__card4.components-List-components-GridNouveau-___GridNouveau__container12tablet.components-List-components-GridNouveau-___GridNouveau__container12.components-List-components-GridNouveau-___GridNouveau__card6tablet > div > div > div.components-Card-components-CardArticle2-___CardArticle2__card_Text > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "KQED",
+    "url": "https://www.kqed.org/author/ecruzguevarra"
+}
+{
+    "selectors": {
+        "name": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > div > header > h1",
+        "title": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > div > header > small > span.bio__position",
+        "desc": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > div > p:nth-child(4)",
+        "email": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > div > ul > li:nth-child(2) > a",
+        "twitter": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > div > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#maincontent > div:nth-child(1) > div.region.region--primary > div:nth-child(2) > div > div > figure > a > img",
+        "single_article": "#maincontent > div:nth-child(1) > div.region.region--primary > div.component.component--layout.layout--G1 > div > div > div > div > h3 > a",
+        "single_article_title": "#maincontent > div:nth-child(1) > div.region.region--primary > div.component.component--layout.layout--G1 > div > div > div > div > h3 > a",
+        "single_article_url": "#maincontent > div:nth-child(1) > div.region.region--primary > div.component.component--layout.layout--G1 > div > div > div > div > h3 > a",
+        "single_article_description": null,
+        "single_article_date": "#maincontent > div:nth-child(1) > div.region.region--primary > div.component.component--layout.layout--G1 > div > div > div > div > div.article__details > span.article__timestamp"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "MarketWatch",
+    "url": "https://www.marketwatch.com/author/tomi-kilgore"
+}
+{
+    "selectors": {
+        "name": "#content > div:nth-child(2) > div.wrap-page-header > header > h1 > span",
+        "title": "#rj-region-top > div:nth-child(2) > strong",
+        "desc": "#rj-region-top > div:nth-child(5) > p",
+        "email": "#rj-region-top > div:nth-child(3) > a",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": "#rj-region-top > div:nth-child(4) > a",
+        "pfp": "#rj-region-top > div.rj-category-image > img",
+        "single_article": "#rj-region-top > div.rj-widget.latest-news.rj-gutter-mobile > div > article > div.field-col.right > div.entry-title.field-title > a",
+        "single_article_title": "#rj-region-top > div.rj-widget.latest-news.rj-gutter-mobile > div > article > div.field-col.right > div.entry-title.field-title > a",
+        "single_article_url": "#rj-region-top > div.rj-widget.latest-news.rj-gutter-mobile > div > article > div.field-col.right > div.entry-title.field-title > a",
+        "single_article_description": "#rj-region-top > div.rj-widget.latest-news.rj-gutter-mobile > div > article > div.field-col.right > div.field-excerpt > p",
+        "single_article_date": "#rj-region-top > div.rj-widget.latest-news.rj-gutter-mobile > div > article > div.field-col.right > div.field-info > div.field-update.custom-field-update.field-updated-time > time.entry-date.updated"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Las Vegas Review-Journal",
+    "url": "https://www.reviewjournal.com/staff/patrick-blennerhassett/"
+}
+{
+    "selectors": {
+        "name": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div.sc-bczRLJ.dist__StackBase-sc-1fnzlkn-5.gmNub.eeCpcl > h1",
+        "title": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div.sc-bczRLJ.dist__StackBase-sc-1fnzlkn-5.gmNub.eeCpcl > h2",
+        "desc": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div:nth-child(2) > pre",
+        "email": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(1)",
+        "twitter": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(3)",
+        "linkedin": null,
+        "facebook": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(2)",
+        "instagram": null,
+        "phone": null,
+        "pfp": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div:nth-child(2) > figure > div > img",
+        "single_article": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span > a",
+        "single_article_title": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span:nth-child(2) > a > h3",
+        "single_article_url": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span > a",
+        "single_article_description": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > a > p",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "KSAT-TV (San Antonio, TX)",
+    "url": "https://www.ksat.com/team/DIB410459QTNV7GBAZPOEN7DB7/"
+}
+{
+    "selectors": {
+        "name": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > article > div.card--author__content > h2",
+        "title": null,
+        "desc": "#author1 > p",
+        "email": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > article > div.card--author__image.mr-0.mb-2x.mb-md-0 > div > a:nth-child(1)",
+        "twitter": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > article > div.card--author__image.mr-0.mb-2x.mb-md-0 > div > a:nth-child(2)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > article > div.card--author__image.mr-0.mb-2x.mb-md-0 > img",
+        "single_article": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > div > div.related-do__items > article > div.card-content > div.card-header.mb-2 > h3 > a",
+        "single_article_title": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > div > div.related-do__items > article > div.card-content > div.card-header.mb-2 > h3 > a",
+        "single_article_url": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > div > div.related-do__items > article > div.card-content > div.card-header.mb-2 > h3 > a",
+        "single_article_description": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > div > div.related-do__items > article > div.card-content > div.card-body.text-darker-gray",
+        "single_article_date": "#pb-page-content > div > div > main > section > div > div.col-12.col-xl-8 > div > div.related-do__items > article > div.card-content > div.card-meta.text-uppercase.mb-1 > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Science Magazine",
+    "url": "https://www.science.org/content/author/erik-stokstad"
+}
+{
+    "selectors": {
+        "name": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > div.profile-bio > div.profile-meta > div.profile-name",
+        "title": null,
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > h3 > a",
+        "single_article_title": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > h3 > a",
+        "single_article_url": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > h3 > a",
+        "single_article_description": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > div.story-card__excerpt.more-news__story-card-excerpt > p",
+        "single_article_date": "#post-4908622 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > div.story-card__meta.more-news__story-card-meta > span.story-card__meta-time.more-news__story-card__meta-time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WNBC-TV (New York, NY)",
+    "url": "https://www.nbcnewyork.com/author/myles-miller-132/"
+}
+{
+    "selectors": {
+        "name": "body > div.container-fluid.main-wrapper.zsheikh > div.container-fluid.blog-rundown.insiders-rundown > div > div > div.col-xlg-12.col-lg-12.col-md-12.col-sm-12.col-xs-12.header-rundown-secondary > section:nth-child(3) > div > section > div.caption > span",
+        "title": null,
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "body > div.container-fluid.main-wrapper.zsheikh > div.container-fluid.blog-rundown.insiders-rundown > div > div > div.grid > div > div > a > div.title",
+        "single_article_title": "body > div.container-fluid.main-wrapper.zsheikh > div.container-fluid.blog-rundown.insiders-rundown > div > div > div.grid > div > div > a > div.title",
+        "single_article_url": "body > div.container-fluid.main-wrapper.zsheikh > div.container-fluid.blog-rundown.insiders-rundown > div > div > div.grid > div > div > a",
+        "single_article_description": "body > div.container-fluid.main-wrapper.zsheikh > div.container-fluid.blog-rundown.insiders-rundown > div > div > div.grid > div > div > a > div.excerpt",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Sportsnet Canada",
+    "url": "https://www.sportsnet.ca/author/zsheikh/"
+}
+{
+    "selectors": {
+        "name": "#fitt-analytics > div > div > main > div.content.team-bio > section > h1",
+        "title": null,
+        "desc": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner",
+        "email": null,
+        "twitter": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(4)",
+        "linkedin": null,
+        "facebook": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(2)",
+        "instagram": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(6)",
+        "phone": null,
+        "pfp": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-headshot.inner > img",
+        "single_article": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_title": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_url": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_description": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > div",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "KABC-TV (Los Angeles, CA)",
+    "url": "https://abc7.com/about/newsteam/christiane-cordero/"
+}
+{
+    "selectors": {
+        "name": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorHeaderContent-gJdnVA.hzYFTl > h1",
+        "title": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorHeaderContent-gJdnVA.hzYFTl > h2",
+        "desc": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorHeaderContent-gJdnVA.hzYFTl > div.ContributorHeaderBio-etClMZ.cHCTzb > p",
+        "email": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorHeaderContent-gJdnVA.hzYFTl > div.SocialIconsWrapper-hKMEXV.ffgPVr.social-icons.social-icons--standard.ContributorHeaderSocialIcons-cKnrDO.jTxmhQ > ul > li > a",
+        "twitter": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorHeaderContent-gJdnVA.hzYFTl > div.SocialIconsWrapper-hKMEXV.ffgPVr.social-icons.social-icons--standard.ContributorHeaderSocialIcons-cKnrDO.jTxmhQ > ul > li > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main-content > div.ContributorHeaderWrapper-cMHleS.gzQSxB.ContributorPageHeader-focxHi.AiInS > div > div.ContributorAvatarImageWrapper-kSlnkT.jmtVxF > span > picture > img",
+        "single_article": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.fZGSXg.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_title": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.fZGSXg.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_url": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.fZGSXg.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > a",
+        "single_article_description": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.fZGSXg.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > div.RubricWrapper-dKmCNX.eiIpgC.rubric.rubric--discovery.SummaryItemRubric-dguGKN.lapGFj.summary-item__rubric > a > span",
+        "single_article_date": "#main-content > div.GridWrapper-cAzTTK.hvFIAc.grid.grid-items-0.ContributorPageGrid-dsShuR.gVhCxy > div > div > section > div.GridWrapper-cAzTTK.gtpYgB.grid.grid-margins.grid-items-2.SummaryListWrapper-eeFlQw.fZGSXg.summary-list.SummaryRiverList-ggyoWN.fRqnb.grid-layout--adrail > div.GridItem-buujkM.ckUkOW.grid--item.grid-layout__content > div > div > div > div.SummaryItemContent-eiDYMl.clSLtF.summary-item__content > div.SummaryItemBylineWrapper-boCfbi.hYsZi.summary-item__byline-date-icon.summary-item__byline-date-icon--no-author > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WIRED Magazine",
+    "url": "https://www.wired.com/author/kate-knibbs/"
+}
+{
+    "selectors": {
+        "name": "#main > div > section > div.layout-teaser-list__header-content > section > h1",
+        "title": null,
+        "desc": "#main > div > section > div.layout-teaser-list__header-content > section > div > div > div > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#recent > a > div.topic-story__teaser > b",
+        "single_article_title": "#recent > a > div.topic-story__teaser > b",
+        "single_article_url": "#recent > a",
+        "single_article_description": null,
+        "single_article_date": "#recent > a > div.topic-story__teaser > div > div"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Slate",
+    "url": "https://slate.com/author/esther-zuckerman"
+}
+{
+    "selectors": {
+        "name": "#section-heading",
+        "title": null,
+        "desc": "#main-wrapper > main > div.lrv-u-background-color-grey-lightest.lrv-u-padding-tb-2 > div > div > div > section.author-blurb.\\/\\/.a-author-blurb-grid.lrv-u-padding-b-2\\@desktop.lrv-a-wrapper > div.u-display-contents\\@desktop-xl-max > div.a-author-blurb-grid__text.lrv-u-border-t-1.lrv-u-margin-t-1 > p",
+        "email": "#main-wrapper > main > div.lrv-u-background-color-grey-lightest.lrv-u-padding-tb-2 > div > div > div > section.author-blurb.\\/\\/.a-author-blurb-grid.lrv-u-padding-b-2\\@desktop.lrv-a-wrapper > div.u-display-contents\\@desktop-xl-max > div.a-author-blurb-grid__details.u-flex\\@desktop-xl.lrv-u-flex-wrap-wrap > nav > ul > li > a",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#title-of-a-story > a",
+        "single_article_title": "#title-of-a-story > a",
+        "single_article_url": "#title-of-a-story > a",
+        "single_article_description": "#main-wrapper > main > div.lrv-u-background-color-grey-lightest.lrv-u-padding-tb-2 > div > div > div > section.latest-news-river.\\/\\/.lrv-a-wrapper > div.river-items-wrapper.\\/\\/.a-news-river-grid__river > div > div > div.story-grid-secondary.\\/\\/.a-story-grid__secondary.lrv-a-glue-parent.lrv-u-flex.lrv-u-flex-direction-column.lrv-u-justify-content-center.lrv-u-padding-a-125 > div > a",
+        "single_article_date": "#main-wrapper > main > div.lrv-u-background-color-grey-lightest.lrv-u-padding-tb-2 > div > div > div > section.latest-news-river.\\/\\/.lrv-a-wrapper > div.river-items-wrapper.\\/\\/.a-news-river-grid__river > div > div > div.story-grid-secondary.\\/\\/.a-story-grid__secondary.lrv-a-glue-parent.lrv-u-flex.lrv-u-flex-direction-column.lrv-u-justify-content-center.lrv-u-padding-a-125 > ul > li:nth-child(2)"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Billboard",
+    "url": "https://www.billboard.com/author/jessica-nicholson/"
+}
+{
+    "selectors": {
+        "name": "#root > section > section > section.author-bio > div > div > div.author-bio__text-wrapper > h1",
+        "title": null,
+        "desc": "#root > section > section > section.author-bio > div > div > div.author-bio__text-wrapper > article",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#root > section > section > section.all-feed > div > div:nth-child(1) > div.all-feed__posts > article > a > div > h2",
+        "single_article_title": "#root > section > section > section.all-feed > div > div:nth-child(1) > div.all-feed__posts > article > a > div > h2",
+        "single_article_url": "#root > section > section > section.all-feed > div > div:nth-child(1) > div.all-feed__posts > article > a",
+        "single_article_description": "#root > section > section > section.all-feed > div > div:nth-child(1) > div.all-feed__posts > article > a > div > h3",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Fast Company",
+    "url": "https://www.fastcompany.com/user/chris-r-morris"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-3.secondary-bio-center",
+        "title": "#mainContentSection > div > div.secondary > div > div.secondary-bio.bio-7.secondary-bio-center",
+        "desc": "#mainContentSection > div > div.secondary > div > div.secondary-bio.text-left.bio-6",
+        "email": "#email",
+        "twitter": "#twitter",
+        "linkedin": "#linkedin",
+        "facebook": "#facebook",
+        "instagram": "#instagram",
+        "phone": null,
+        "pfp": "#mainContentSection > div > div.secondary > div > div:nth-child(1) > img",
+        "single_article": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_title": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_description": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_date": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small",
+        "single_article_url": "#mainContentSection > div > div.primary > div.articles > promo-story-thumb-small"
+    },
+    "post_selectors": {
+        "single_article_title": "title",
+        "single_article_description": "descripton",
+        "single_article_date": "date-published",
+        "single_article_url": "url"
+    },
+    "outlet_name": "Detroit News",
+    "url": "https://www.detroitnews.com/staff/4930732001/hayley-harding/"
+}
+{
+    "selectors": {
+        "name": "body > div.wrapper > div > main > div > div > h1",
+        "title": "body > div.wrapper > div > main > div > div > h2",
+        "desc": "body > div.wrapper > div > main > div > div > p",
+        "email": null,
+        "twitter": "body > div.wrapper > div > main > div > div > div > div > ul > li > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.wrapper > div > main > div > picture > img",
+        "single_article": "body > div.wrapper > div > main > ps-list-loadmore > ul > li > ps-promo > div.content > h4 > a",
+        "single_article_title": "body > div.wrapper > div > main > ps-list-loadmore > ul > li > ps-promo > div.content > h4 > a",
+        "single_article_url": "body > div.wrapper > div > main > ps-list-loadmore > ul > li > ps-promo > div.content > h4 > a",
+        "single_article_description": null,
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "GBH News",
+    "url": "https://www.wgbh.org/people/craig-lemoult"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": "#profile-main > div.details > div",
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "twitter": "#profile-main > div.details > ul > li:nth-child(2) > a",
+        "linkedin": "#profile-main > div.details > ul > li:nth-child(3) > a",
+        "facebook": "#profile-main > div.details > ul > li:nth-child(4) > a",
+        "instagram": "#profile-main > div.details > ul > li:nth-child(5) > a",
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "Buffalo News",
+    "url": "https://buffalonews.com/users/profile/ben%20tsujimoto/"
+}
+{
+    "selectors": {
+        "name": "#fitt-analytics > div > div > main > div.content.team-bio > section > h1",
+        "title": null,
+        "desc": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner",
+        "email": null,
+        "twitter": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(4)",
+        "linkedin": null,
+        "facebook": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(2)",
+        "instagram": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner > b > a:nth-child(6)",
+        "phone": null,
+        "pfp": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-headshot.inner > img",
+        "single_article": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_title": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_url": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > a",
+        "single_article_description": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div > div",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WABC-TV (New York, NY)",
+    "url": "https://abc7ny.com/about/newsteam/anthony-johnson/"
+}
+{
+    "selectors": {
+        "name": "#main > div > div.info > header > div > h1",
+        "title": "#main > div > div.info > header > div > span",
+        "desc": "#main > div > div.info > div > div.author-full-bio > p",
+        "email": "#main > div > div.info > header > ul > li:nth-child(2) > a",
+        "twitter": "#main > div > div.info > header > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div > div.info > header > img",
+        "single_article": "#main > div > div.author-stories-feed > div > article",
+        "single_article_date": "#main > div > div.author-stories-feed > div > article > div > header > div > time",
+        "single_article_title": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a > span",
+        "single_article_description": "#main > div > div.author-stories-feed > div > article > div > div",
+        "single_article_url": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Baltimore Sun",
+    "url": "https://www.baltimoresun.com/author/amanda-yeager/"
+}
+{
+    "selectors": {
+        "name": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.block.block-ctools.block-entity-viewnode > article > div > div > div.author-info-wrapper > div > h1",
+        "title": null,
+        "desc": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.block.block-ctools.block-entity-viewnode > article > div > div > div.author-info-wrapper",
+        "email": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.block.block-ctools.block-entity-viewnode > article > div > div > div.author-info-wrapper > div > span > a.email",
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.block.block-ctools.block-entity-viewnode > article > div > div > div.author-info-wrapper > h3:nth-child(4) > a",
+        "pfp": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.block.block-ctools.block-entity-viewnode > article > div > div > div.author-image > picture > img",
+        "single_article": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.views-element-container.block.block-views.block-views-blockstory-listing-on-author-page-story-listing > div > div > div > div > div > div > div.middle-article-content > div.middle-article-headline > a",
+        "single_article_title": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.views-element-container.block.block-views.block-views-blockstory-listing-on-author-page-story-listing > div > div > div > div > div > div > div.middle-article-content > div.middle-article-headline > a",
+        "single_article_url": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.views-element-container.block.block-views.block-views-blockstory-listing-on-author-page-story-listing > div > div > div > div > div > div > div.middle-article-content > div.middle-article-headline > a",
+        "single_article_description": "#mm-0 > div.has-interstitial-ads-page > div.dialog-off-canvas-main-canvas > div > main > div > div > article > div > div > div.region-featured.row > div.region-featured-left.col-xs-12.col-sm-12.col-md-12.col-lg-8 > div > div.views-element-container.block.block-views.block-views-blockstory-listing-on-author-page-story-listing > div > div > div > div > div > div > div.middle-article-content > div.feature-article-summary > a > p",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Automotive News",
+    "url": "https://www.autonews.com/staff/laurence-iliff"
+}
+{
+    "selectors_type": "css",
+    "selectors": {
+        "name": "#profile-main > div.details > h1",
+        "title": "#profile-main > div.details > div",
+        "desc": "#user-about",
+        "email": "#profile-main > div.details > ul > li:nth-child(1) > a",
+        "twitter": "#profile-main > div.details > ul > li:nth-child(2) > a",
+        "linkedin": "#profile-main > div.details > ul > li:nth-child(3) > a",
+        "facebook": "#profile-main > div.details > ul > li:nth-child(4) > a",
+        "instagram": "#profile-main > div.details > ul > li:nth-child(5) > a",
+        "phone": null,
+        "pfp": "#profile-main > div.avatar > img",
+        "single_article": "#posts > div > article",
+        "single_article_title": "#posts > div > article > div.card-container > div.card-body > div.card-headline",
+        "single_article_description": "#posts > div > article > div.card-container > div.card-body > div.card-lead",
+        "single_article_date": "#posts > div > article > div.card-container > div.card-body > div.card-meta > ul > li.card-date > time",
+        "single_article_url": "#posts > div > article > div.card-container > div.card-body > div.card-headline > h3 > a"
+    },
+    "post_selectors": {},
+    "outlet_name": "St. Louis Post-Dispatch",
+    "url": "https://www.stltoday.com/users/profile/drieckpd/"
+}
+{
+    "selectors": {
+        "name": "#page-content > div > section > header > span > span.username",
+        "title": null,
+        "desc": "#page-content > div > section > header > span > span:nth-child(3) > span",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#page-content > div > section > header > span > span.authorPhoto > img",
+        "single_article": "#page-content > div > section > div > div > ol > div > div > div.articleContent > a.atom.articleTitle.lowerMargin",
+        "single_article_title": "#page-content > div > section > div > div > ol > div > div > div.articleContent > a.atom.articleTitle.lowerMargin",
+        "single_article_url": "#page-content > div > section > div > div > ol > div > div > div.articleContent > a.atom.articleTitle.lowerMargin",
+        "single_article_description": null,
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Bleacher Report",
+    "url": "https://bleacherreport.com/users/0708f5bd-6638-4d70-b262-173460839949"
+}
+{
+    "selectors": {
+        "name": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div.td-page-header > h1",
+        "title": null,
+        "desc": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div.author-box-wrap.td-author-page > div.desc",
+        "email": null,
+        "twitter": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div.author-box-wrap.td-author-page > div.desc > div.td-author-social > span > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div.author-box-wrap.td-author-page > img",
+        "single_article": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div > div > div > h3 > a",
+        "single_article_title": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div > div > div > h3 > a",
+        "single_article_url": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div > div > div > h3 > a",
+        "single_article_description": null,
+        "single_article_date": "#td-outer-wrap > div.td-main-content-wrap.td-container-wrap > div > div.td-pb-row > div.td-pb-span8.td-main-content > div > div > div > div > div.td-module-meta-info > span.td-post-date > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Washington Examiner",
+    "url": "https://www.washingtonexaminer.com/author/brady-knox"
+}
+{
+    "selectors": {
+        "name": "body > div.page__wrapper > nav > div > h1",
+        "title": null,
+        "desc": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__wrapper > div > div.author__intro > p",
+        "email": null,
+        "twitter": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__wrapper > div > h2 > span.author__social > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.author__photo-wrapper > figure > img",
+        "single_article": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__cards > article > a",
+        "single_article_title": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__cards > article > a",
+        "single_article_url": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__cards > article > a",
+        "single_article_description": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__cards > article > p.card-text__excerpt",
+        "single_article_date": "body > div.page__wrapper > main > div > div > div.page__body-content.page__body-content--author > div.page__body-text.page__body-text--default > div > div.author__cards > article > p.card-text__meta > span"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "PBS",
+    "url": "https://www.pbs.org/newshour/author/amna-nawaz"
+}
+{
+    "selectors": {
+        "name": "#main > div > div.info > header > div > h1",
+        "title": "#main > div > div.info > header > div > span",
+        "desc": "#main > div > div.info > div > div.author-full-bio > p",
+        "email": "#main > div > div.info > header > ul > li:nth-child(2) > a",
+        "twitter": "#main > div > div.info > header > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div > div.info > header > img",
+        "single_article": "#main > div > div.author-stories-feed > div > article",
+        "single_article_date": "#main > div > div.author-stories-feed > div > article > div > header > div > time",
+        "single_article_title": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a > span",
+        "single_article_description": "#main > div > div.author-stories-feed > div > article > div > div",
+        "single_article_url": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Mercury News",
+    "url": "https://www.mercurynews.com/author/paul-rogers/"
+}
+{
+    "selectors": {
+        "name": "#main > div > div.info > header > div > h1",
+        "title": "#main > div > div.info > header > div > span",
+        "desc": "#main > div > div.info > div > div.author-full-bio > p",
+        "email": "#main > div > div.info > header > ul > li:nth-child(2) > a",
+        "twitter": "#main > div > div.info > header > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div > div.info > header > img",
+        "single_article": "#main > div > div.author-stories-feed > div > article",
+        "single_article_date": "#main > div > div.author-stories-feed > div > article > div > header > div > time",
+        "single_article_title": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a > span",
+        "single_article_description": "#main > div > div.author-stories-feed > div > article > div > div",
+        "single_article_url": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Orange County Register",
+    "url": "https://www.ocregister.com/author/laylan-connelly/"
+}
+{
+    "selectors": {
+        "name": "#main > div > div.info > header > div > h1",
+        "title": "#main > div > div.info > header > div > span",
+        "desc": "#main > div > div.info > div > div.author-full-bio > p",
+        "email": "#main > div > div.info > header > ul > li:nth-child(2) > a",
+        "twitter": "#main > div > div.info > header > ul > li:nth-child(1) > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div > div.info > header > img",
+        "single_article": "#main > div > div.author-stories-feed > div > article",
+        "single_article_date": "#main > div > div.author-stories-feed > div > article > div > header > div > time",
+        "single_article_title": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a > span",
+        "single_article_description": "#main > div > div.author-stories-feed > div > article > div > div",
+        "single_article_url": "#main > div > div.author-stories-feed > div > article > div > header > h3 > a"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "New York Daily News",
+    "url": "https://www.nydailynews.com/author/thomas-tracy/"
+}
+{
+    "selectors": {
+        "name": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div.BarronsTheme--name-container--3j0WEl9z > h1",
+        "title": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > h2",
+        "desc": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div.BarronsTheme--bio--p2zAONIY > p",
+        "email": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div:nth-child(5) > a:nth-child(2)",
+        "twitter": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div:nth-child(5) > a:nth-child(1)",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#root > div > div > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div.BarronsTheme--imagewrap--34Tuux_Z > img",
+        "single_article": "#root > div > div > div > div:nth-child(2) > div > div > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2 > div > article > div.BarronsTheme--wrapper-1-0--2f3XwkpR > div.BarronsTheme--headline--1Q8XnyIf > h3 > a",
+        "single_article_title": "#root > div > div > div > div:nth-child(2) > div > div > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2 > div > article > div.BarronsTheme--wrapper-1-0--2f3XwkpR > div.BarronsTheme--headline--1Q8XnyIf > h3 > a",
+        "single_article_url": "#root > div > div > div > div:nth-child(2) > div > div > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2 > div > article > div.BarronsTheme--wrapper-1-0--2f3XwkpR > div.BarronsTheme--headline--1Q8XnyIf > h3 > a",
+        "single_article_description": "#root > div > div > div > div:nth-child(2) > div > div > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2 > div > article > div.BarronsTheme--wrapper-1-0--2f3XwkpR > p",
+        "single_article_date": "#root > div > div > div > div:nth-child(2) > div > div > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2 > div > article > div.BarronsTheme--wrapper-1-0--2f3XwkpR > div.BarronsTheme--timestamp--1QcAFHpF > p"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Barron's",
+    "url": "https://www.barrons.com/authors/al-root"
 }

@@ -114,15 +114,19 @@ class BioScraper:
         res, raw_elements = {'url':url}, {}
 
         url_domain = self.get_url_domain(url)
+
+        # if domain does not have a scraper, log and return
         if url_domain not in self.domain_to_selectors:
+            print(f'[WARNING] Could not find scraper for domain {url_domain}')
             with open('./could_not_process.txt', '+a') as file:
                 file.write(url + '\n')
                 return
         
         page_source = self.page_source_getter.get_page_source(url)
 
-        # if page_source is blank
+        # if page_source is blank,, log and return
         if not page_source:
+            print(f'[WARNING] Could not get page source for {url}')
             with open('./could_not_process.txt', '+a') as file:
                 file.write(url + '\n')
                 return
@@ -178,7 +182,6 @@ class BioScraper:
         for url in urls:
             print(f"({counter}/{url_count}) ", end="")
             self.scrape_single_page(url)
-            time.sleep(random.uniform(0.5, 1))
             counter += 1
     
 
