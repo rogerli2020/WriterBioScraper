@@ -10,7 +10,7 @@ import random
 class PageSourceGetter:
     def __init__(self, max_retries=4):
         options = Options()
-        options.add_argument("--window-size=1280x720")
+        options.add_argument("--window-size=1282x726")
         options.add_argument('--blink-settings=imagesEnabled=false')
         options.add_argument('--ignore-certificate-errors-spki-list')
         options.add_argument('--ignore-ssl-errors')
@@ -28,25 +28,28 @@ class PageSourceGetter:
         self.options = options
         self.max_retries = max_retries
 
-    def get_page_source(self, url: str, timeout: int=10, retries=0, reinstantiate_after=False) -> str:
-        if retries >= self.max_retries: return ""
-        if retries > 0: print(f'Retrying for the {retries} time...')
-        self.driver.set_page_load_timeout(timeout)
-        self.driver.implicitly_wait(timeout)
+    def get_page_source(self, url: str, timeout: int=10, retries=0, always_reinstantiate=False) -> str:
+        if retries >= self.max_retries: 
+            print("Too many retries...")
+            return ""
+        if retries > 0: 
+            print(f'Retrying for the {retries} time...')
+
         try:
+            # timeout does not work?? WTF??
+            self.driver.set_page_load_timeout(timeout)
             self.driver.get(url)
-            time.sleep(random.uniform(0.75, 1.25))
+            time.sleep(random.uniform(1.2, 1.75))
             page_source = self.driver.page_source
-            if reinstantiate_after: self.reinstantiate_driver()
+            if always_reinstantiate: self.reinstantiate_driver()
             return page_source
         except TimeoutException:
             print("[WARNING] A timeout exception happened...")
-            self.reinstantiate_driver()
-            self.get_page_source(url, timeout+5, retries+1)
+            return self.get_page_source(url=url, timeout=timeout+5, retries=retries+1)
         except Exception:
             print("[WARNING] An exception occured...")
             self.reinstantiate_driver()
-            self.get_page_source(url, timeout, retries+1)
+            return self.get_page_source(url=url, timeout=timeout, retries=retries+1)
     
     def reinstantiate_driver(self):
         self.driver.quit()

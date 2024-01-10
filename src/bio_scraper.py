@@ -31,6 +31,7 @@ class BioScraper:
     
 
     def _load_data(self):
+        print("Loading outlet scraper information...")
         with open(self.selectors_path, 'r') as jsonl_file:
             json_lines = ""
             for line in jsonl_file:
@@ -42,6 +43,7 @@ class BioScraper:
                     json_lines = ""
                 except json.JSONDecodeError:
                     continue
+        print(f"Scraper information loaded for {len(self.domain_to_selectors)} outlets.")
 
 
     def get_urls_list(self):

@@ -1,0 +1,29 @@
+Fast Company, https://www.fastcompany.com/user/simonataylor, got 1 or less article
+New York Post, https://nypost.com/author/adrian-ashkenazy/, got 1 or less article
+"KSAT-TV (San Antonio, TX)", https://www.ksat.com/team/74FXRYG4SRF73N4NCLH5XQOVTU/, did not get any articles
+New York Magazine, https://nymag.com/author/ela-bittencourt/, got 1 or less article
+NPR, https://www.npr.org/people/1105322283/deanna-schwartz, did not get journalist name
+People Magazine, https://people.com/author/rebecca-dameron/, did not get any articles
+KQED, https://www.kqed.org/author/nancyyamamoto, did not get journalist name
+Philadelphia Inquirer, https://www.inquirer.com/author/rosenzweig_janet/, did not get journalist name
+KQED, https://www.kqed.org/author/angiewong, did not get journalist name
+KQED, https://www.kqed.org/author/ihsiao, got 1 or less article
+GBH News, https://www.wgbh.org/people/gina-mccarthy, got 1 or less article
+Vox, https://www.vox.com/authors/bob-muglia, got 1 or less article
+Sportsnet Canada, https://www.sportsnet.ca/author/jtomiyama/, did not get journalist name
+Sportsnet Canada, https://www.sportsnet.ca/author/jtomiyama/, did not get any articles
+New York Magazine, https://nymag.com/author/giovanni-russonello/, got 1 or less article
+Seeking Alpha, https://seekingalpha.com/author/dave-kelly, did not get any articles
+GBH News, https://www.wgbh.org/people/robert-peters, got 1 or less article
+NPR, https://www.npr.org/people/494609421/thomas-hjelm, did not get journalist name
+People Magazine, https://people.com/author/faith-cummings/, did not get any articles
+ProPublica, https://www.propublica.org/people/scotty-smith, got 1 or less article
+CNN, https://www.cnn.com/profiles/sarah-tilotta, did not get journalist name
+CNN, https://www.cnn.com/profiles/sarah-tilotta, did not get any articles
+"KSAT-TV (San Antonio, TX)", https://www.ksat.com/team/maritzacarlos/, did not get any articles
+New York Magazine, https://nymag.com/author/tim-nelson/, got 1 or less article
+Seeking Alpha, https://seekingalpha.com/author/harry-chernoff, did not get any articles
+Slate, https://slate.com/author/kerry-howley, did not get journalist name
+Seeking Alpha, https://seekingalpha.com/author/andrew-ling, did not get any articles
+Vox, https://www.vox.com/authors/philip-damiano, got 1 or less article
+Science Magazine, https://www.science.org/content/author/amy-jenne, did not get any articles
