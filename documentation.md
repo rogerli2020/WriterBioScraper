@@ -37,14 +37,14 @@ TODO: the resulting social media links are often mislabeled but fixing it should
     - Make sure that for social media links, always select the <a/> element containig the HREF to the link.
     - Make sure that the CSS selector obtained is generalized (i.e. it does not rely on elements with id attributes that contains the name of the specific author. This is less of an issue with biography elements but can be more common with article elements.)
 4. You’ll then have to enter the selectors for articles (single_article, single_article_title, etc).
-    - single_article is not important,  idk why I included it but you can enter anything for this field.
-    - as mentioned above, make sure the CSS selector obtained is generalized so it does not rely on some id attributes of the article element. One tip is to just delete the id attribute editing the element, and then copying the CSS selector after deleting the id field.
+    - single_article is not important, you can enter anything for this field or just edit the code to not include it.
+    - as mentioned above, make sure the CSS selector obtained is generalized for all the articles so it does not rely on some id attributes of a single article element. One tip is to just delete the id attribute editing the element, and then copying the CSS selector after deleting the id field.
     - make sure you stick to only 1 article element, preferably something further down the list of articles.
     - make sure to select an <a/> element for single_article_url
 5. The program will then ask you to enter a substring to be deleted from the article selectors. This is so you can get rid of the “:nth-child(X)” substring from the selectors so more than 1 articles can be scraped.
-6. The program will then ask you to enter “post-selectors” (which is a random word i coined). Most of the time it is not needed. Refer to the source code to see what it does exactly.
+6. The program will then ask you to enter “post-selectors”. Most of the time it is not needed. Refer to the source code to see what it does.
 7. Many outlets use the same template. To expedite the process, you can review the file assets\common_formats.json to check out the common templates. If you encounter an outlet that uses one of the common templates, you can just enter the key defined in the common_formats file (e.g. -gann, -blox, -daily, etc) while entering selectors information.
-8. The information you entered are saved under ./assets/selectors. You can edit them manually by opening the file.
+8. The information you entered are saved under ./assets/selectors.jsonl. You can edit them manually by opening the file.
 
 ## Process for Scraping URLs
 
