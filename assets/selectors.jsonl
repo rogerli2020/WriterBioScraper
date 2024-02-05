@@ -3239,3 +3239,166 @@
     "outlet_name": "Barron's",
     "url": "https://www.barrons.com/authors/al-root"
 }
+{
+    "selectors": {
+        "name": "#fitt-analytics > div > div > main > div.content.team-bio > section > h1",
+        "title": null,
+        "desc": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-body.inner",
+        "email": null,
+        "twitter": "#fitt-analytics > div > div > main > div.content.team-bio > section > a.newsteam-bio.newsteam-bio--twitter",
+        "linkedin": null,
+        "facebook": "#fitt-analytics > div > div > main > div.content.team-bio > section > a.newsteam-bio.newsteam-bio--facebook",
+        "instagram": null,
+        "phone": null,
+        "pfp": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.bio-headshot.inner > img",
+        "single_article": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div.headline-list-item > a",
+        "single_article_title": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div.headline-list-item > a",
+        "single_article_url": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div.headline-list-item > a",
+        "single_article_description": "#fitt-analytics > div > div > main > div.content.team-bio > div.main.main-left > section.top-stories.headlines-list.inner > div.top-stories-expanded > div > div.headline-list-item > div",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WPVI-TV (Philadelphia, PA)",
+    "url": "https://6abc.com/about/newsteam/brittany-boyer/"
+}
+{
+    "selectors": {
+        "name": "#main > div > article > div > aside > div > div:nth-child(2) > p",
+        "title": null,
+        "desc": "#main > div > article > div > div > div > p",
+        "email": null,
+        "twitter": "#main > div > article > div > aside > div > div:nth-child(2) > div > a:nth-child(1)",
+        "linkedin": "#main > div > article > div > aside > div > div:nth-child(2) > div > a:nth-child(2)",
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#main > div > article > div > aside > div > div._4749beb4.global_chapter__arp_image._9ca01fce > img",
+        "single_article": "#main > div > article > div > div > section > div > div > ul > li > article > div._67ee1cea > h3 > a",
+        "single_article_title": "#main > div > article > div > div > section > div > div > ul > li > article > div._67ee1cea > h3 > a",
+        "single_article_url": "#main > div > article > div > div > section > div > div > ul > li > article > div._67ee1cea > h3 > a",
+        "single_article_description": "#main > div > article > div > div > section > div > div > ul > li > article > div._67ee1cea > div",
+        "single_article_date": "#main > div > article > div > div > section > div > div > ul > li > article > div._67ee1cea > time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/authors/rachel-cericola/"
+}
+{
+    "selectors": {
+        "name": "body > div.IMF > div.cCV > div > div > div.ulY > h1",
+        "title": null,
+        "desc": "body > div.IMF > div.cCV > div > div > div.rgM",
+        "email": null,
+        "twitter": "body > div.IMF > div.cCV > div > div > div.rgM > div.uul > a.AJQ.c9H",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": "body > div.IMF > div.cCV > div > div > div.rgM > div.uul > a.AJQ.tR3",
+        "phone": null,
+        "pfp": "body > div.IMF > div.cCV > div > div > div.ulY > div > div > img",
+        "single_article": "body > div.IMF > div.xXM > a",
+        "single_article_title": "body > div.IMF > div.xXM > a > div.HDp > p.kM9",
+        "single_article_url": "body > div.IMF > div.xXM > a",
+        "single_article_description": "body > div.IMF > div.xXM > a > div.HDp > p.kIN",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "Bustle",
+    "url": "https://www.bustle.com/profile/brittany-beringer-81255567"
+}
+{
+    "selectors": {
+        "name": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div.sc-bczRLJ.dist__StackBase-sc-1fnzlkn-5.gmNub.eeCpcl > h1",
+        "title": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div.sc-bczRLJ.dist__StackBase-sc-1fnzlkn-5.gmNub.eeCpcl > h2",
+        "desc": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div:nth-child(2) > pre",
+        "email": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(1)",
+        "twitter": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(2)",
+        "linkedin": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > section > a:nth-child(3)",
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > article > div:nth-child(2) > figure > div > img",
+        "single_article": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span > a",
+        "single_article_title": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span > a",
+        "single_article_url": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > span > a",
+        "single_article_description": "#fusion-app > section > main > section.sc-bczRLJ.fQPXvZ.mainContent > section > div > div > div.sc-bczRLJ.eYTApd.storyListNext > div > article > div > div > div > a > p",
+        "single_article_date": null
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "WPLG-TV (Pembroke Park, FL)",
+    "url": "https://www.local10.com/team/PKWEMUBRGVEGVHLJXPXKO4IDKY/"
+}
+{
+    "selectors": {
+        "name": "#main > article > header > h1",
+        "title": "#main > article > div > p",
+        "desc": "#main > article > div > p",
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_title": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_url": "#main > article > section > div.article-list__content > article > div > h3 > a",
+        "single_article_description": "#main > article > section > div.article-list__content > article > div > footer > a",
+        "single_article_date": "#main > article > section > div.article-list__content > article > div > footer > time"
+    },
+    "post_selectors": {
+        "single_article_date": "datetime"
+    },
+    "selectors_type": "css",
+    "outlet_name": "KDVR-TV (Denver, CO)",
+    "url": "https://kdvr.com/author/brooke-williams/"
+}
+{
+    "selectors": {
+        "name": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.my-6.md\\:my-9.lg\\:mt-6.lg\\:mb-9 > div > h1",
+        "title": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.my-6.md\\:my-9.lg\\:mt-6.lg\\:mb-9 > div > div.tracking-normal.leading-none.mb-2\\.5.flex.flex-wrap.gap-1\\.5.items-center > div",
+        "desc": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.my-6.md\\:my-9.lg\\:mt-6.lg\\:mb-9 > div > div.prose.max-w-none.xl\\:max-w-prose.text-sm > p",
+        "email": null,
+        "twitter": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.my-6.md\\:my-9.lg\\:mt-6.lg\\:mb-9 > div > div.tracking-normal.leading-none.mb-2\\.5.flex.flex-wrap.gap-1\\.5.items-center > ul > li > a",
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.mb-12 > ul > li > a",
+        "single_article_title": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.mb-12 > ul > li > a > div.basis-full > span",
+        "single_article_url": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.mb-12 > ul > li > a",
+        "single_article_description": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.mb-12 > ul > li > a > div.basis-full > div.font-body.text-xxs.md\\:text-sm.leading-snug.mb-2 > p",
+        "single_article_date": "#__next > div.min-h-screen.max-h-screen.max-w-full.flex.flex-col > main > div.max-w-full.px-4.md\\:px-5.lg\\:max-xl\\:px-8.mt-6.lg\\:mt-12 > article > article > div > div.mb-12 > ul > li > a > div.max-lg\\:hidden.lg\\:w-\\[54px\\].lg\\:mr-8.xl\\:mr-4.pt-1.\\[\\&_span\\:first-child\\]\\:hidden.max-xl\\:\\[\\&_span\\:last-child\\]\\:whitespace-normal > div > div > span.inline-block.uppercase.whitespace-nowrap"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "The Messenger",
+    "url": "https://themessenger.com/author/adam-klasfeld"
+}
+{
+    "selectors": {
+        "name": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > div.profile-bio > div.profile-meta > div.profile-name",
+        "title": null,
+        "desc": null,
+        "email": null,
+        "twitter": null,
+        "linkedin": null,
+        "facebook": null,
+        "instagram": null,
+        "phone": null,
+        "pfp": null,
+        "single_article": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > h3",
+        "single_article_title": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > h3",
+        "single_article_url": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > a",
+        "single_article_description": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > div.story-card__excerpt.more-news__story-card-excerpt > p",
+        "single_article_date": "#post-2163565 > div.section-content--full.below-hero > div.section-content--primary > div > section > ul > li > div > div.story-card__meta.more-news__story-card-meta > span.story-card__meta-time.more-news__story-card__meta-time"
+    },
+    "post_selectors": {},
+    "selectors_type": "css",
+    "outlet_name": "KNTV-TV (San Jose, CA)",
+    "url": "https://www.nbcbayarea.com/author/sergio-flores/"
+}
